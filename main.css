@@ -6,7 +6,11 @@
 .col-md-4:hover{
     background-color: yellow;
 }
-.col-md-4 h3 {transform: translate(-50%, -50%);}
+.col-md-4 h3 {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
 h3 {
 font-size:14px;
 }
