@@ -1,7 +1,6 @@
 .col-md-4 {
 	color:red;
 	height:300px;
-	text-align:center;
 }
 .col-md-4:hover{
     background-color: yellow;
@@ -12,5 +11,6 @@
     transform: translateY(-50%);
 }
 h3 {
-font-size:14px;
+	font-size:14px;
+    text-align:center;
 }
