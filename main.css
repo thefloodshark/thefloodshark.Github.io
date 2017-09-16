@@ -1,9 +1,9 @@
 .col-md-4 {
-	color:#35C9DB;
+	color:#00A5D1;
 	height:300px;
 }
 .col-md-4:hover{
-    background-color: #FFD640;
+    background-color: #FFE097;
 }
 .col-md-4 h3 {
     position: relative;
