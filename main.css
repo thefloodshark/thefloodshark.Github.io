@@ -170,12 +170,17 @@ hr {
 /* Basic Structure
 -------------------------------------------------------------- */
 
-body {
-  height: 99%;
-  width: 96%;
+body{
+  max-width: 96%;
   margin-top: 10px;
+  margin: 0 auto !important;
+  float: none !important;
   color: black;
   font-family: "Buenard", "EB Garamond", "Lora", serif;  
+}
+.header-container, .body-container, .footer-container{
+max-width: 100%;
+margin: 0 auto;
 }
 #container {  
   margin: 0 auto;
@@ -205,6 +210,6 @@ body {
 }
 #content {
   float: none;
-  width: 960px;       
+  width: 96%;       
 }
 #wrapper { width: 100%; }
