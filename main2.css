@@ -1,0 +1,21 @@
+@-ms-viewport{
+  width: device-width;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto';
+
+/* Original
+-------------------------------------------------------------- */
+
+.col-md-4 {
+	color:#00A5D1;
+	height:300px;
+}
+.col-md-4:hover{
+    background-color: #FFE097;
+}
+.col-md-4 h3 {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}

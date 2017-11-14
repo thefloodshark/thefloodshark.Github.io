@@ -173,9 +173,14 @@ body{
   color: black;
   font-family: "Buenard", "EB Garamond", "Lora", serif;  
 }
-#main-page body {
-  width: 100%;
-  max-width: 100%;
+.header-container, .body-container, .footer-container{
+max-width: 960px;
+margin: 0 auto;
+}
+#wrap { 
+	max-width: 960px;
+    width: 100%;
+	margin: 0 auto; 
 }
 #container {  
   margin: 0 auto;
