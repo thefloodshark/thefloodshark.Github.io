@@ -167,14 +167,19 @@ hr {
 body{
   width: 100%;
   max-width: 960px;
-  margin-top: 10px;
+  margin-top: 6%;
   margin: 0 auto !important;
   float: none !important;
   color: black;
   font-family: "Buenard", "EB Garamond", "Lora", serif;  
 }
+#main-page body {
+  width: 100%;
+  max-width: 100%;
+}
 #container {  
   margin: 0 auto;
+  float: none !important;
   max-width: 960px;
   position: relative;
   width: 100%; 
