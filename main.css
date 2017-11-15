@@ -161,18 +161,18 @@ hr {
 /* Basic Structure
 -------------------------------------------------------------- */
 
-body{
+body {
   width: 100%;
   max-width: 960px;
-  margin-top: 60px;
+  padding-top: 60px;
   margin: 0 auto !important;
   float: none !important;
   color: black;
   font-family: "Buenard", "EB Garamond", "Lora", serif;  
 }
-.header-container, .body-container, .footer-container{
-max-width: 960px;
-margin: 0 auto;
+.header-container, .body-container, .footer-container {
+    max-width: 960px;
+    margin: 0 auto;
 }
 #wrap { 
 	max-width: 960px;
