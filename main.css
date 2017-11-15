@@ -39,11 +39,9 @@ h6 {
 p, ul, ol, li, dl, address {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
-  font-size: 120%; /* was originally 13 px */
+  font-size: 16px; /* was originally 13 px */
+  font-family: 'Buernard', 'EB Garamond', 'Lora', serif;
   text-align: left;
-}
-p {
-font-family: 'Buernard', 'EB Garamond', 'Lora', serif;
 }
 ul {
   margin-left: 16px;   
@@ -167,7 +165,7 @@ hr {
 body{
   width: 100%;
   max-width: 960px;
-  margin-top: 10%;
+  margin-top: 60px;
   margin: 0 auto !important;
   float: none !important;
   color: black;
