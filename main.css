@@ -4,12 +4,16 @@
 
 @import 'https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto';
 
-h1, h2, h3, h4, h5, h6 {
+h, h1, h2, h3, h4, h5, h6 {
   font-family: Verdana, "Roboto", Helvetica, Verdana, sans-serif;
   -ms-word-wrap: break-word;
   word-wrap:     break-word;
   line-height: 120%;
   margin: 30px 0 7px;                   
+}
+h {
+  color: black;
+  font-size: 30px;  
 }
 h1 {
   color: black;
@@ -164,7 +168,7 @@ hr {
 body {
   width: 100%;
   max-width: 960px;
-  padding-top: 60px;
+  padding-top: 30px;
   margin: 0 auto !important;
   float: none !important;
   color: black;
