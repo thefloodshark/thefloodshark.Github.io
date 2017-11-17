@@ -14,12 +14,12 @@ h, h1, h2, h3, h4, h5, h6 {
 h {
   color: black;
   font-size: 30px;
-  padding-bottom: 2cm;    
+  padding-bottom: 12px;    
 }
 h1 {
   color: black;
   font-size: 30px;
-  padding-bottom: 2cm;
+  padding-bottom: 12px;
 }
 h2 {
   color: black;
@@ -170,7 +170,7 @@ hr {
 body {
   width: 100%;
   max-width: 960px;
-  padding-top: 25px;
+  padding-top: 30px;
   margin: 0 auto !important;
   float: none !important;
   color: black;
