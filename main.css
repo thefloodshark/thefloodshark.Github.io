@@ -41,7 +41,7 @@ h6 {
   color: black;
   font-size: 15px;  
 }
-p, p2, ol, li, dl, address {
+p, p1, p2, ol, li, dl, address {
   -ms-word-wrap: break-word;
   word-wrap: break-word;
   font-size: 24px; /* was originally 13 px */
