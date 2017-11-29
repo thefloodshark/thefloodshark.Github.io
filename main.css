@@ -11,9 +11,6 @@ h, h1, h2, h3, h4, h5, h6 {
   line-height: 120%;
   margin: 30px 0 7px;                   
 }
-a {
-    color: #00A5D1;
-}
 h {
   color: black;
   font-size: 30px;
@@ -88,8 +85,8 @@ blockquote cite {
 	text-transform: uppercase;
 }
 a {
-  color: #649300;
-  text-decoration: underline;           
+  color: #00A5D1;
+  text-decoration: dashed, underline;           
 }
 a:hover {
   text-decoration: none;           
