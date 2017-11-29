@@ -86,7 +86,7 @@ blockquote cite {
 }
 a {
   color: #00A5D1;
-  text-decoration: dashed, underline;           
+  text-decoration-style: dashed;           
 }
 a:hover {
   text-decoration: none;           
