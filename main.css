@@ -86,14 +86,11 @@ blockquote cite {
 }
 a {
   color: #00A5D1;
-  text-decoration-style: dashed 1px;           
+  text-decoration-style: dashed 1px;
+  border-bottom: solid 1px;
 }
 a:hover {
-  border-bottom: solid 1px; 
-}
-a1.specialeffects:hover {
-
-}
+ border-bottom: dashed 1px; text-decoration: none;  
 }
 a img {
   border: none;      
