@@ -142,10 +142,11 @@ embed {
   width: 100%;   
 }
 hr {
-  background: #e8e8e8;
-  border: none;
-  height: 1px; 
-  margin: 15px 0;  
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: #edb640;
+    margin-top: 6px;
 }
 
 /* Original
