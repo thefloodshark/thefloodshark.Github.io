@@ -145,9 +145,12 @@ hr {
     border: none;
     height: 2px;
     color: black;
-    background-color: #edb640;
+    background-color: #FFE097;
     margin-top: 6px;
 }
+
+/* old hr color color: #edb640 */
+/* old header color: #FF9874*/
 
 /* Original
 -------------------------------------------------------------- */
