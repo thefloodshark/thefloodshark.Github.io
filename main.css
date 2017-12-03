@@ -5,7 +5,7 @@
 @import 'https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto';
 
 h, h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Verdana, "Roboto", sans-serif;
+  font-family: Helvetica, 'Roboto', Verdana, sans-serif;
   -ms-word-wrap: break-word;
   word-wrap:     break-word;
   line-height: 120%;
