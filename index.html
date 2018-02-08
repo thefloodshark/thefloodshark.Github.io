@@ -35,11 +35,13 @@
             max-height: 100%;
     }
     #div3 {
-            background-image: url('CodingPic.jpeg');
+            background-image: url('codingpic2.jpg');
             background-position: center center; //center the image in the div
             background-size: contain; //cover the entire div
             background-repeat: no-repeat;
             background-size: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     #div4 {
             background-image: url('Birds%20on%20Wire.jpg');
@@ -63,8 +65,6 @@
             background-image: url('Ocean%20Water.jpg');
             background-position: center center; //center the image in the div
             background-size: cover; //cover the entire div
-            max-width: 100%;
-            max-height: 100%;
             background-repeat: no-repeat;
             background-size: 100%;
             opacity: 0.5;
@@ -81,13 +81,21 @@
     }
     #div8 {
             background-image: url('Gallery%20Image.JPG');
+            background-position: center center; //center the image in the div
+            background-size: cover; //cover the entire div
             max-width: 100%;
             max-height: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     #div9 {
-            background-image: url('../images/divbg.png');
+            background-image: url('');
+            background-position: center center; //center the image in the div
+            background-size: cover; //cover the entire div
             max-width: 100%;
             max-height: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     div {
         background-image:url(../images/please-dont-use-spaces.jpg); //add the background image
@@ -124,10 +132,10 @@
 				</div></a>
 			</div>	
 			<div class="row">	
-				<a href="Classical Corner.html" title="Classical Corner - A nook dedicated to sharing and categorizing classical music"><div class="col-md-4 seven">
+				<a href="Classical Corner.html" title="Classical Corner - A nook dedicated to sharing and categorizing classical music"><div class="col-md-4" id="div7">
 					<h3>Classical Corner</h3>
 				</div></a>
-				<a href="Gallery.html" title="Images, Photographs, and Album Art"><div class="col-md-4">
+				<a href="Gallery.html" title="Images, Photographs, and Album Art"><div class="col-md-4" id="div8">
 					<h3>Gallery</h3>
 				</div></a>
 				<a href="Contribute - Support - Donate.html" title="Contribute to The Floodplains!"><div class="col-md-4">
