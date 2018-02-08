@@ -35,9 +35,11 @@
             max-height: 100%;
     }
     #div3 {
-            background-image: url('../images/divbg.png');
-            max-width: 100%;
-            max-height: 100%;
+            background-image: url('CodingPic.jpeg');
+            background-position: center center; //center the image in the div
+            background-size: contain; //cover the entire div
+            background-repeat: no-repeat;
+            background-size: 100%;
     }
     #div4 {
             background-image: url('Birds%20on%20Wire.jpg');
@@ -45,11 +47,17 @@
             background-size: contain; //cover the entire div
             background-repeat: no-repeat;
             background-size: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     #div5 {
             background-image: url('Shark Cans Logo.jpg');
             background-position: center center; //center the image in the div
             background-size: cover; //cover the entire div
+            background-repeat: no-repeat;
+            background-size: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     #div6 {
             background-image: url('Ocean%20Water.jpg');
@@ -59,6 +67,8 @@
             max-height: 100%;
             background-repeat: no-repeat;
             background-size: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     #div7 {
             background-image: url('Piano.jpg');
@@ -66,9 +76,11 @@
             background-size: cover; //cover the entire div
             max-width: 100%;
             max-height: 100%;
+            opacity: 0.5;
+            filter: alpha(opacity=50); /* For IE8 and earlier */
     }
     #div8 {
-            background-image: url('../images/divbg.png');
+            background-image: url('Gallery%20Image.JPG');
             max-width: 100%;
             max-height: 100%;
     }
@@ -93,7 +105,7 @@
 				<a href="Articles.html" title="Original Articles and Content"><div class="col-md-4">
 					<h3>Articles</h3>
 				</div>
-				<a href="Coding Corner.html" title="Coding Corner - Code for a Variety of Projects"><div class="col-md-4">
+				<a href="Coding Corner.html" title="Coding Corner - Code for a Variety of Projects"><div class="col-md-4" id="div3">
 					<h3>Coding Corner</h3>
 				</div></a>
 			</div>
@@ -101,13 +113,13 @@
 				<a href="Contact - Social.html" title="Contact The Floodplains & The FloodShark"><div class="col-md-4" id="div4">
                   <h3>Contact & Social</h3>
 				</div></a>
-				<a href="The FloodShark Main.html" title="The FloodShark Music and Media"><div class="col-md-4 five">
+				<a href="The FloodShark Main.html" title="The FloodShark Music and Media"><div class="col-md-4" id="div5">
 					<h3>
                     The FloodShark
                     Music
                     </h3>
 				</div></a>
-				<a href="Floodplain Productions.html" title="Floodplain Productions - virtual record label"><div class="col-md-4" id="six">
+				<a href="Floodplain Productions.html" title="Floodplain Productions - virtual record label"><div class="col-md-4" id="div6">
 					<h3>Floodplain Productions</h3>
 				</div></a>
 			</div>	
