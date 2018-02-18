@@ -11,12 +11,28 @@
 	color:#00A5D1;
 	height:300px;
     border: 1px solid #FF8B6F;
+    position: relative;
 }
-.col-md-4:hover{
-    background-color: #FFE097;
+
+.col-md-4:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  background: #FFE097;
+  opacity: 0;
 }
+
+.col-md-4:hover:after {
+  opacity: .5;
+}
+
 .col-md-4 h3 {
     position: relative;
+    z-index: 1;
     top: 40%;
     transform: translateY(-50%);
 }
