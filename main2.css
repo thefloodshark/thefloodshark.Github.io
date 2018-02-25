@@ -1,6 +1,6 @@
 @-ms-viewport{
   width: device-width;
-  max-width: 90%;    
+  padding: 10px;    
 }
 
 @import 'https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto';
