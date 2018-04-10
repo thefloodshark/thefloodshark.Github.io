@@ -1,0 +1,88 @@
+<head>
+<title>Articles - An Eclectic Assortment of Original Content</title>
+<meta name="description" content="An electronic press kit (EPK) presented by The FloodShark. Here, expect to find news, announcements, and an overview of The FloodShark's material." />
+<link rel="shortcut icon" href="WaterDrop.ico" type="image/x-icon">
+<link href="https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto" rel="stylesheet" type="text/css">
+<link rel='stylesheet' type='text/css' href='main.css'>
+<style>
+* {
+    box-sizing: border-box;
+}
+.row {
+    display: flex;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+ul, li {
+    font-family: garamond, arial, serif;
+}
+h2 {
+    color: #FF8B6F;
+    text-decoration-color: #FF8B6F;
+    text-align: left;
+    max-width:90%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+hr {
+    border: none;
+    height: 2px;
+    color: black;
+    background-color: #FFE097;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Buenard', Garamond, 'EB Garamond';
+}
+.small {
+	font-size: 24px;
+    font-weight: 300;
+    font-family: 'EB Garamond', Garamond, 'Buenard';
+    color: black;
+    text-decoration-color: black;
+}
+ul {
+    width: 80%;
+    margin: auto;
+}
+df {
+  color: #00A5D1;
+  border-bottom: dashed 1px; text-decoration: none;  
+}
+df:hover {
+  border-bottom: solid 1px;
+}
+</style>
+</head>
+<body>
+<button id="Home" class="float-left submit-button" >Home</button>
+<script type="text/javascript">
+    document.getElementById("Home").onclick = function () {
+        location.href = "http://thefloodplains.com/";
+    };
+</script>
+    
+<!-- h2 and ul/li used predominately -->
+    
+<h2>Two Equal Columns</h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>Announcements / Updates</h2>
+    <p>The FloodShark - Sentimental Shark single</p>
+    <p>"Sentimental Shark" <a href="youtube.com">music video</a> released</p>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <p>Some text..</p>
+  </div>
+</div>
+
+</body>
+</html>
+</body>
