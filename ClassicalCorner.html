@@ -35,6 +35,10 @@ li
         margin-bottom: 12px;
         padding-bottom: 12px;
     }
+#sub { list-style:none; }
+#sub li:before {
+    content: "\2192 \0020";
+}
 .padtop
     {
     margin-top: 2px;    
@@ -52,7 +56,7 @@ li
 <hr>
 <h2>Resources:</h2>
     
-<ul><li><a href="http://www.classical.net/">Classical Net</a> - contains a variety of classical reviews, articles, recommendations, and biographies. Their "Basic Repertoire" lists are excellent listening guides</li>
+<ul class="sub"><li><a href="http://www.classical.net/">Classical Net</a> - contains a variety of classical reviews, articles, recommendations, and biographies. Their "Basic Repertoire" lists are excellent listening guides</li>
     <li><a href="https://www.prestoclassical.co.uk/classical">Presto Classical</a> - a site dedicated to cataloging and selling thousands of classical recordings. Great for searching award-winning interpretations</li>
     <li><a href="https://www.deutschegrammophon.com/us/">Deutsche Grammophon</a> - an important classical music label. The website includes recordings, news, biographies, concerts, and much more</li>
     <li><a href="http://www.classicfm.com/">ClassicFM</a> - a userful classical resource and digital radio</li>
@@ -62,82 +66,81 @@ li
     </ul>
     
 <h2>Recommended Works by Composer:</h2>
-    <ul><li>Bach - Air, St. Matthew's Passion, The Well-Tempered Clavier</li>
-    <li>Bartók - Concerto for Orchestra, The Miraculous Mandarin</li>
-    <li>Berlioz - Les Nuits d'Ete, Les Troyens, Symphonie fantastique</li>
-    <li>Beethoven - Archduke Trio, Egmont, Piano Concerto No 1, Missa Solemnis, Piano Concerto No. 2, Piano Concerto No. 4, Piano Concerto No. 5, Piano Sonata No. 8, Piano Sonata No. 14, Piano Sonata No. 17, Piano Sonata No. 21, Piano Sonata No. 23, Piano Sonata No. 26, Piano Sonata No. 32, Symphony No. 3, Symphony No. 5, Symphony No. 6, Symphony No. 7, Symphony No. 9</li>
-    <li>Brahms - Hungarian Dances, Piano Concerto No. 2, Symphony No. 3, Symphony No. 4</li>
-    <li>Copland - Appalachian Spring, Fanfare for the Common Man</li>
-    <li>Chopin - Mazurkas, Nocturnes, Piano Sonata No. 2, Preludes</li>
-    <li>Debussy - La Mer, Golliwog's Cakewalk, Images, Prélude à l'après-midi d'un faune, Preludes for Piano, Reverie, Suite Bergamasque</li>
-    <li>Dvorak - Symphony No. 9 (New World Symphony)</li>
-    <li>Gershwin - An American in Paris, Porgy and Bess, Rhapsody in Blue</li>
-    <li>Handel - Arrival of the Queen of Sheba, Messiah, Music for the Roral Fireworks, Water Music</li>
-    <li>Haydn - Symphony No. 101, Symphony No. 103</li>
-    <li>Janacek - On an Overgrown Path, Sinfonietta, The Cunning Little Vixen, Idyll Suite for Orchestra</li>
-    <li>Ives - Central Park in the Dark, Three Places in New England</li>
-    <li>Liszt - Hungarian Rhapsodies</li>
-    <li>Lutislowski - Cello Concerto, Symphony No. 3, Concerto for Orchestra</li>
-    <li>Mahler - Das Lied von der Erde, Symphonies 2, 3, 5, 6, & 9 (honestly can't go wrong with any of them)</li>
-    <li>Mozart - Ave verum corpus, Fantasy #2, Piano Concertos, Piano Sonatas, Serenade No. 13, Symphony No. 40, Symphonoy No. 41, Requiem, Die Zauberflote, Don Giovanni, Le Nozze di Figaro</li>
-    <li>Prokofiev - Peter and the Wolf, Symphony No. 5</li>
-    <li>Rachmaninov - The Bells, The Isle of the Dead, Piano Concerto No. 2, Piano Concerto No. 3, Symphnoic Dances</li>
-    <li>Ravel - Bolero, Daphnis et Chloe, Gaspard de Nuit, Piano Concerto in G Major, Piano Concerto for the Left Hand</li>
-    <li>Rimsky-Korsakov - Capriccio españole, Scheherazade, The Flight of the Bumblebee</li>
-    <li>Satie - Gnossiennes, Gymnopédies</li>
-    <li>Saint-Saëns - Danse Macabre, Introduction et Rondo capriccioso</li>
-    <li>Scarlatti - Sonatas for Keyboard</li>
-    <li>Schoenberg - Pelleas und Melisande, Verklärte Nacht</li>
-    <li>Schubert - Lieder, Piano Quintet in A Major ("The Trout"), Piano Sonata No. 21, Symphony No. 9, Winterreise</li>
-    <li>Schumann - Kinderszenen, Kreisleriana, Symphonic Etudes</li>
-    <li>Scriabin - Poem of Ecstasy, Symphony No. 1, Symphony No. 2</li>
-    <li>Shostakovich - The Jazz Album, Symphony No. 2, Symphony No. 5, Syphnony No. 7, Symphony No. 10, Symphony No. 15</li>
-    <li>Sibelius - Finlandia, Kullervo, Lemminkäinen Suite, Scene Historique, Symphony No. 2, Symphony No. 7, Violin Concerto in D Minor</li>
-    <li>Stravinsky - Firebird, Petrushka, Pulcinella, The Rite of Spring, Symphony of Psalms, Les Noces</li>
-    <li>Stockhausen - Helikopter-Streichquartett, Kontra-Punkte Op. 1, for 10 Instruments</li>
-    <li>Tchaikovsky - 1812 Overture, Marche Slave, The Nutcracker Suite, Piano Concerto No. 1, Sleeping Beauty, Symphony No. 6, Swan Lake, Violin Concerto in D Major</li>
-    <li>Vaughan Williams - Fantasia on a Theme of Thomas Tallis, The Lark Ascending</li>
-    <li>Wagner - Tristan und Isolde, Operas</li>
+    <ul class="sub"><li><font color="#00A5D1">Bach</font> - Air, St. Matthew's Passion, The Well-Tempered Clavier</li>
+    <li><font color="#00A5D1">Bartók</font> - Concerto for Orchestra, The Miraculous Mandarin</li>
+    <li><font color="#00A5D1">Berlioz</font> - Les Nuits d'Ete, Les Troyens, Symphonie fantastique</li>
+    <li><font color="#00A5D1">Beethoven</font> - Archduke Trio, Egmont, Piano Concerto No 1, Missa Solemnis, Piano Concerto No. 2, Piano Concerto No. 4, Piano Concerto No. 5, Piano Sonata No. 8, Piano Sonata No. 14, Piano Sonata No. 17, Piano Sonata No. 21, Piano Sonata No. 23, Piano Sonata No. 26, Piano Sonata No. 32, Symphony No. 3, Symphony No. 5, Symphony No. 6, Symphony No. 7, Symphony No. 9</li>
+    <li><font color="#00A5D1">Brahms</font> - Hungarian Dances, Piano Concerto No. 2, Symphony No. 3, Symphony No. 4</li>
+    <li><font color="#00A5D1">Copland</font> - Appalachian Spring, Fanfare for the Common Man</li>
+    <li><font color="#00A5D1">Chopin</font> - Mazurkas, Nocturnes, Piano Sonata No. 2, Preludes</li>
+    <li><font color="#00A5D1">Debussy</font> - La Mer, Golliwog's Cakewalk, Images, Prélude à l'après-midi d'un faune, Preludes for Piano, Reverie, Suite Bergamasque</li>
+    <li><font color="#00A5D1">Dvorak</font> - Symphony No. 9 (New World Symphony)</li>
+    <li><font color="#00A5D1">Gershwin</font> - An American in Paris, Porgy and Bess, Rhapsody in Blue</li>
+    <li><font color="#00A5D1">Handel</font> - Arrival of the Queen of Sheba, Messiah, Music for the Roral Fireworks, Water Music</li>
+    <li><font color="#00A5D1">Haydn</font> - Symphony No. 101, Symphony No. 103</li>
+    <li><font color="#00A5D1">Janacek</font> - On an Overgrown Path, Sinfonietta, The Cunning Little Vixen, Idyll Suite for Orchestra</li>
+    <li><font color="#00A5D1">Ives</font> - Central Park in the Dark, Three Places in New England</li>
+    <li><font color="#00A5D1">Liszt</font> - Hungarian Rhapsodies</li>
+    <li><font color="#00A5D1">Lutislowski</font> - Cello Concerto, Symphony No. 3, Concerto for Orchestra</li>
+    <li><font color="#00A5D1">Mahler</font> - Das Lied von der Erde, Symphonies 2, 3, 5, 6, & 9 (honestly can't go wrong with any of them)</li>
+    <li><font color="#00A5D1">Mozart</font> - Ave verum corpus, Fantasy #2, Piano Concertos, Piano Sonatas, Serenade No. 13, Symphony No. 40, Symphonoy No. 41, Requiem, Die Zauberflote, Don Giovanni, Le Nozze di Figaro</li>
+    <li><font color="#00A5D1">Prokofiev</font> - Peter and the Wolf, Symphony No. 5</li>
+    <li><font color="#00A5D1">Rachmaninov</font> - The Bells, The Isle of the Dead, Piano Concerto No. 2, Piano Concerto No. 3, Symphnoic Dances</li>
+    <li><font color="#00A5D1">Ravel</font> - Bolero, Daphnis et Chloe, Gaspard de Nuit, Piano Concerto in G Major, Piano Concerto for the Left Hand</li>
+    <li><font color="#00A5D1">Rimsky-Korsakov</font> - Capriccio españole, Scheherazade, The Flight of the Bumblebee</li>
+    <li><font color="#00A5D1">Satie</font> - Gnossiennes, Gymnopédies</li>
+    <li><font color="#00A5D1">Saint-Saëns</font> - Danse Macabre, Introduction et Rondo capriccioso</li>
+    <li><font color="#00A5D1">Scarlatti</font> - Sonatas for Keyboard</li>
+    <li><font color="#00A5D1">Schoenberg</font> - Pelleas und Melisande, Verklärte Nacht</li>
+    <li><font color="#00A5D1">Schubert</font> - Lieder, Piano Quintet in A Major ("The Trout"), Piano Sonata No. 21, Symphony No. 9, Winterreise</li>
+    <li><font color="#00A5D1">Schumann</font> - Kinderszenen, Kreisleriana, Symphonic Etudes</li>
+    <li><font color="#00A5D1">Scriabin</font> - Poem of Ecstasy, Symphony No. 1, Symphony No. 2</li>
+    <li><font color="#00A5D1">Shostakovich</font> - The Jazz Album, Symphony No. 2, Symphony No. 5, Syphnony No. 7, Symphony No. 10, Symphony No. 15</li>
+    <li><font color="#00A5D1">Sibelius</font> - Finlandia, Kullervo, Lemminkäinen Suite, Scene Historique, Symphony No. 2, Symphony No. 7, Violin Concerto in D Minor</li>
+    <li><font color="#00A5D1">Stravinsky</font> - Firebird, Petrushka, Pulcinella, The Rite of Spring, Symphony of Psalms, Les Noces</li>
+    <li><font color="#00A5D1">Stockhausen</font> - Helikopter-Streichquartett, Kontra-Punkte Op. 1, for 10 Instruments</li>
+    <li><font color="#00A5D1">Tchaikovsky</font> - 1812 Overture, Marche Slave, The Nutcracker Suite, Piano Concerto No. 1, Sleeping Beauty, Symphony No. 6, Swan Lake, Violin Concerto in D Major</li>
+    <li><font color="#00A5D1">Vaughan Williams</font> - Fantasia on a Theme of Thomas Tallis, The Lark Ascending</li>
+    <li><font color="#00A5D1">Wagner</font> - Tristan und Isolde, Operas</li>
     </ul>
     
 <h2>Recommended Interpretors by Genre and Composer:</h2>
     <h3 class="padtop">Piano / Harpsicord / Keyboard</h3>
-    <ul><li>Bartok - Zoltán</li>
-        <li>Beethoven - Barenboim, Brendel, Kempff</li>
-        <li>Bach - Gilbert (harpsicord), Gould, Gulda, Marriner, Pollini, Richter (piano), Sokolov (piano)</li>
-        <li>Brahms - Kempff, Polini</li>
-        <li>Chopin - Argerich, Horowitz, Dinu Lipatti, Yundi Li, Pollini, Arthur Rubinstein, Zimmerman</li>
-        <li>Debussy - Michelangeli</li>
-        <li>Liszt - Gyorgy, Kissin</li>
-        <li>Mozart - Mitsuko Uchida, Murray Perahia</li>
-        <li>Rachmaninov - Lugansky, Ashenkazy, Richter, Argerich</li>
-        <li>Ravel - Pierre-Laurent Aimard, Argerich, Michelangeli, Vlado Perlemuter</li>
-        <li>Scriabin - Horowitz, Richter</li>
-        <li>Scarlatti - Pogorelić Schiff</li>
-        <li>Schubert - Kempff, Lupu, Pollini, Richter</li>
-        <li>Schumann - Horowitz</li>
-        <li>Rachmaninov - Argerich, Richter</li>
-        <li>Tchaikovsky - Argerich</li>
+    <ul class="sub"><li><font color="#00A5D1">Bartok</font> - Zoltán</li>
+        <li><font color="#00A5D1">Beethoven</font> - Barenboim, Brendel, Kempff</li>
+        <li><font color="#00A5D1">Bach</font> - Gilbert (harpsicord), Gould, Gulda, Marriner, Pollini, Richter (piano), Sokolov (piano)</li>
+        <li><font color="#00A5D1">Brahms</font> - Kempff, Polini</li>
+        <li><font color="#00A5D1">Chopin</font> - Argerich, Horowitz, Dinu Lipatti, Yundi Li, Pollini, Arthur Rubinstein, Zimmerman</li>
+        <li><font color="#00A5D1">Debussy</font> - Michelangeli</li>
+        <li><font color="#00A5D1">Liszt</font> - Gyorgy, Kissin</li>
+        <li><font color="#00A5D1">Mozart</font> - Mitsuko Uchida, Murray Perahia</li>
+        <li><font color="#00A5D1">Rachmaninov</font> - Lugansky, Ashenkazy, Richter, Argerich</li>
+        <li><font color="#00A5D1">Ravel</font> - Pierre-Laurent Aimard, Argerich, Michelangeli, Vlado Perlemuter</li>
+        <li><font color="#00A5D1">Scriabin</font> - Horowitz, Richter</li>
+        <li><font color="#00A5D1">Scarlatti</font> - Pogorelić Schiff</li>
+        <li><font color="#00A5D1">Schubert</font> - Kempff, Lupu, Pollini, Richter</li>
+        <li><font color="#00A5D1">Schumann</font> - Horowitz</li>
+        <li><font color="#00A5D1">Rachmaninov</font> - Argerich, Richter</li>
+        <li><font color="#00A5D1">Tchaikovsky</font> - Argerich</li>
         </ul>
     <h3>Symphonies, Operas, Concertos & and other Orchestral Works</h3>
-    <ul><li>Beethoven - Barenboim, Karajan, Kleiber</li>
-        <li>Brahms - Abbado, Bohm, Karajan, Kleiber</li>
-        <li>Haydn - Dorati</li>
-        <li>Ives - Bernstein</li>
-        <li>Janáček - Mackerras</li>
-        <li>Mahler - Abbado, Barbirolli, Bernstein, Karajan, Klemperer</li>
-        <li>Mozart - Abbado, Bernstein, Bohm</li>
-        <li>Rachmaninov - André Previn, Simon Rattle</li>
-        <li>Ravel - Munch</li>
-        <li>Saint-Saëns - Dutoit</li>
-        <li>Schubert - Amadeus Quartet, Solti,  </li>
-        <li>Schumann - Karajan</li>
-        <li>Scriabin - Muti, Svetlanov</li>
-        <li>Schoenberg - Karajan</li>
-        <li>Shostakovich - Chailly, Nelsons</li>
-        <li>Stravinsky - Boulez</li>
-        <li>Tchaikovsky - Dorati, Karajan</li>
-        <li>Wagner - Karajan</li>
+    <ul class="sub"><li><font color="#00A5D1">Beethoven</font> - Barenboim, Karajan, Kleiber</li>
+        <li><font color="#00A5D1">Brahms</font> - Abbado, Bohm, Karajan, Kleiber</li>
+        <li><font color="#00A5D1">Haydn</font> - Dorati</li>
+        <li><font color="#00A5D1">Ives</font> - Bernstein</li>
+        <li><font color="#00A5D1">Janáček</font> - Mackerras</li>
+        <li><font color="#00A5D1">Mahler</font> - Abbado, Barbirolli, Bernstein, Karajan, Klemperer</li>
+        <li><font color="#00A5D1">Mozart</font> - Abbado, Bernstein, Bohm</li>
+        <li><font color="#00A5D1">Rachmaninov</font> - André Previn, Simon Rattle</li>
+        <li><font color="#00A5D1">Ravel</font> - Munch</li>
+        <li><font color="#00A5D1">Saint-Saëns</font> - Dutoit</li>
+        <li><font color="#00A5D1">Schubert</font> - Amadeus Quartet, Solti,  </li>
+        <li><font color="#00A5D1">Schumann</font> - Karajan</li>
+        <li><font color="#00A5D1">Scriabin</font> - Muti, Svetlanov</li>
+        <li><font color="#00A5D1">Schoenberg</font> - Karajan</li>
+        <li><font color="#00A5D1">Shostakovich</font> - Chailly, Nelsons</li>
+        <li><font color="#00A5D1">Stravinsky</font> - Boulez</li>
+        <li><font color="#00A5D1">Tchaikovsky</font> - Dorati, Karajan</li>
+        <li><font color="#00A5D1">Wagner</font> - Karajan</li>
     </ul>
-    
 </body>
