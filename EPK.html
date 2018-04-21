@@ -77,10 +77,6 @@ df:hover {
   padding: 6px 14px 6px 14px;
   text-decoration: none;
 }
-#sub { list-style:none; }
-#sub li:before {
-    content: "\2192 \0020";
-}
 .btn:hover {
   background: #FF8B6F;
   background-image: -webkit-linear-gradient(top, #FF8B6F, #00A5D1);
@@ -90,11 +86,19 @@ df:hover {
   background-image: linear-gradient(to bottom, #FF8B6F, #00A5D1);
   text-decoration: none;
 }
+#sub { list-style:none; }
+#sub li:before {
+    content: "\2192 \0020";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+}
 img.solid {border-style: solid;}
+.border {border-style: solid;}
 </style>
 </head>
 <body>
-<a class="btn">The Floodplains</a>
+<c class="btn"><d href="http://thefloodplains.com/">The Floodplains</d></c>
     
 <!-- <script type="text/javascript">
     document.getElementById("Home").onclick = function () {
@@ -117,13 +121,13 @@ img.solid {border-style: solid;}
       <p><a href="https://soundcloud.com/thefloodshark/sets/sentimental-shark">"Sentimental Shark" released</p>
       <p><a href="https://soundcloud.com/thefloodshark/hvvs2-scarred-feat-don-jones?in=thefloodshark/sets/sentimental-shark">"HVVS2 / Scarred"</a> released</p>
       <h2>Biography</h2>
-      <p><b>The FloodShark</b>: A Florida-based producer/composer turned cartilaginous, blood-thirsty predator surfing the sonic waves under the pseudonym The FloodShark. After spending the first 8 years of its life in Saudi Arabia, followed by the next 10 in coastal Virginia, the Shark's taken residency along the continental shelf of the Sunshine State.</p>
+      <p><b>The FloodShark</b>: A Florida-based producer/composer turned cartilaginous, blood-thirsty predator surfing the sonic waves with an eclectic musical style. After spending the first 8 years of its life in Saudi Arabia, followed by the next 10 in coastal Virginia, the Shark's taken residency along the continental shelf of the Sunshine State.</p>
           
-    <p><b>The FloodShark's</b> music lies on the experimental side of electronic, incorporating an eclectic blend of instrumental hip-hop, ambient, plunderphonics, field recordings, and Western classical music. Musical themes include political and social resistance, the realities of environmental degradation, and the omnipotence of nature, among others.</p>
+    <p><b>The FloodShark's</b> music lies on the more experimental side of electronic, positing a fusion of instrumental hip-hop, ambient, plunderphonics, field recordings, and Western classical music. Musical themes include political and social resistance, the realities of environmental degradation, and the omnipotence of nature, among others.</p>
   </div>
   <div class="column" style="background-color:white;">
     <h2>Music</h2>
-      <center><iframe style="border: 0; width: 350px; height: 545px;" src="https://bandcamp.com/EmbeddedPlayer/album=3596177225/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://thefloodshark.bandcamp.com/album/sentimental-shark">Sentimental Shark by The FloodShark</a></iframe></center>
+      <center><iframe class="border" style="border: 0; width: 375px; height: 630px;" src="https://bandcamp.com/EmbeddedPlayer/album=3596177225/size=large/bgcol=ffffff/linkcol=63b2cc/transparent=true/" seamless><a href="http://thefloodshark.bandcamp.com/album/sentimental-shark">Sentimental Shark by The FloodShark</a></iframe></center>
     <h2>Upcoming dates & releases</h2>
       <p>Another William Blake</p>
       <p>Dank Memes</p>
