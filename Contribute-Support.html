@@ -47,6 +47,27 @@ dip {
 .container  {
   text-align: center;
 }
+#div1 {
+            background-image: url('Paypal.jpg');
+            background-position: center center; //center the image in the div
+            background-size: cover; //cover the entire div
+            background-repeat: no-repeat;
+            background-size: 100%;
+    }
+    #div2 {
+            background-image: url('Venmo.png');
+            background-position: center center; //center the image in the div
+            background-size: contain; //cover the entire div
+            background-repeat: no-repeat;
+            background-size: 100%;
+    }
+    #div3 {
+            background-image: url('Bitcoin.png');
+            background-position: center center; //center the image in the div
+            background-size: cover; //cover the entire div
+            background-repeat: no-repeat;
+            background-size: 100%;
+    }
 .btn {
   background: #00A5D1;
   background-image: -webkit-linear-gradient(top, #00A5D1, #FF8B6F);
@@ -72,10 +93,11 @@ dip {
   background-image: linear-gradient(to bottom, #FF8B6F, #00A5D1);
   text-decoration: none;
 }
+    a.none {text-decoration: none;}
 </style>
 </head>
 <body>
-<c class="btn"><d href="http://thefloodplains.com/">The Floodplains</d></c>
+<c class="btn"><a href="http://thefloodplains.com/" class="none">The Floodplains</a></c>
    <ll><x><center><t><b>Contributions are Always Welcome!</b></t></center>
 <center><p>If you like what you read, watched, and/or heard, consider contributing via the links below. Thank you so much for your support.</p></center>
     <hr>
@@ -95,9 +117,24 @@ dip {
     <!-- <center><a href="https://www.wikihow.com/Send-Bitcoins"><img src="bitcoin-coin.svg" alt="" width="65" height="65" ></a></center> -->
     
 <div class="container">
+  <div class="block">
+    <a href="https://venmo.com/William-Hyatt-1" title="Venmo"><div class="col-md-4" id='div1'>
+					<h3>About</h3>
+                    </div></a>
+				
+				
+				</div></a>
+    
+    
+    
+    </div>
+  <div class="block">
+    <a href="https://www.paypal.com" title="Paypal"><div class="col-md-4" id='div2'>
+					<h3>Paypal</h3>
+				</div>
   <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
+        <a href="https://www.wikihow.com/Send-Bitcoins" title="Send Bitcoin"><div class="col-md-4" id="div3">
+					<h3>Coding Corner</h3></div>
 </div>    
     
 <!--- take from idea of the home page    
