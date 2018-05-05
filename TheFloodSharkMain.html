@@ -24,11 +24,17 @@ h3 {
     text-decoration-color: #FF8B6F;
     }
 a {
-    text-decoration: underline;
+    Text-decoration: none;
+    border-bottom: dashed 1px;
     text-decoration-color: #FF8B6F;
-    border-bottom: dashed 1px; 
-    text-decoration: none; 
-    }
+}
+a:hover {
+  Color: #FF8B6F;
+  border-bottom: solid 1px;
+}
+a:hover {
+  border-bottom: solid 1px;
+}
 x {
     margin: auto;
     text-align: center;  
@@ -101,8 +107,6 @@ ul.two {
 div {
     color: #00A5D1;
     padding-top: 14px;
-    margin-top: 14px;
-    margin-bottom: 14px;
     }
 div.fixed {
     color: #00A5D1;
@@ -118,8 +122,11 @@ df {
 {
     display: table;
     width: 100%; /*Optional*/
-    table-layout: fixed; /*Optional*/
-    border-spacing: 10px; Optional
+    max-width: 960px;
+    table-layout: fixed; /* Optional*/
+    border-spacing: 10px; /* Optional */
+    margin-left: auto;
+    margin-right: auto;
 }
 .Column
 {
