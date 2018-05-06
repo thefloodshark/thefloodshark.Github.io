@@ -15,7 +15,7 @@ h2 {
     color:#FF8B6F;
     text-decoration-color: #FF8B6F;
 }
-h12 {
+h4 {
 	font-size:36px;
     font-style: bold;
     text-align:center;
@@ -30,6 +30,26 @@ a {
 a:hover {
   Color: #FF8B6F;
   border-bottom: solid 1px;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  width: 100%;
+}
+.block {
+ flex: 0 0 33.1%;
+  height: 290px;
+  margin-bottom: 60px;
+  background-color: #00A5D1;
+  background-position: center center; /* center the image in the div */
+  background-size: cover; /* cover the entire div */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border: 1px solid #FF8B6F;
+  /* align-items: center;
+  justify-content: center; */
+  text-align: center;
 }
 x {
     margin: auto;
@@ -154,103 +174,34 @@ df {
   background-image: linear-gradient(to bottom, #FF8B6F, #00A5D1);
   text-decoration: none;
 }
-    a.none {text-decoration: none;}
-
+a.none {
+    text-decoration: none;
+    }
 .blockx {
-  display: inline-block;
-  width: 290px;
-  height: 290px;
-  background-color: #00A5D1;
   background-image: url('DownloadMusic2.png');
-  background-position: center center; /* center the image in the div */
-  background-size: cover; /* cover the entire div */
-  background-repeat: no-repeat;
-  background-size: 100%;
-        border: 1px solid #FF8B6F;
-  /* align-items: center;
-  justify-content: center; */
-    text-align: center;
-}
+  }
 .blocky {
-  display: inline-block;
-  width: 290px;
-  height: 290px;
-  background-color: #00A5D1;
   background-image: url('EPKIcon2.png');
-                background-position: center center; /* center the image in the div */
-            background-size: cover; /* cover the entire div */
-            background-repeat: no-repeat;
-            background-size: 100%;
-        border: 1px solid #FF8B6F;
-  /* align-items: center;
-  justify-content: center; */
-    text-align: center;
-}
+  background-position: center center; 
+  }
 .blockz {
-  display: inline-block;
-  width: 290px;
-  height: 290px;
-  background-color: #00A5D1;
   background-image: url('StreamAudio.png');
-                background-position: center center; /* center the image in the div */
-            background-size: cover; /* cover the entire div */
-            background-repeat: no-repeat;
-            background-size: 100%;
-        border: 1px solid #FF8B6F;
-  /* align-items: center;
-  justify-content: center; */
-    text-align: center;
-}
+  }
 .blocka {
-  display: inline-block;
-  width: 290px;
-  height: 290px;
-  background-color: #00A5D1;
-    background-image: url('VideoStream.png');
-                background-position: center center; /* center the image in the div */
-            background-size: cover; /* cover the entire div */
-            background-repeat: no-repeat;
-            background-size: 100%;
-        border: 1px solid #FF8B6F;
-  /* align-items: center;
-  justify-content: center; */
-    text-align: center;
-}
+  background-image: url('VideoStream.png');
+  background-position: center center;
+  }
 .blockb {
-  display: inline-block;
-  width: 290px;
-  height: 290px;
-  background-color: #00A5D1;
-  background-image: url('ContactIcon.png');
-                background-position: center center; /* center the image in the div */
-            background-size: cover; /* cover the entire div */
-            background-repeat: no-repeat;
-            background-size: 100%;
-        border: 1px solid #FF8B6F;
-  /* align-items: center;
-  justify-content: center; */
-    text-align: center;
-}
+ url('ContactIcon.png');
+ }
 .blockc {
-  display: inline-block;
-  width: 290px;
-  height: 290px;
-  background-color: #00A5D1;
   background-image: url('Handshake2.png');
-  background-position: center center; /* center the image in the div */
-  background-size: cover; /* cover the entire div */
-  background-repeat: no-repeat;
-  background-size: 100%;
-  border: 1px solid #FF8B6F;
-  /* align-items: center;
-  justify-content: center; */
-  text-align: center;
-}   
+  }   
 .containers {
     position: relative;
     text-align: center;
     color: #00A5D1;
-}
+    }
 .bottom-left {
     position: absolute;
     bottom: 8px;
@@ -332,28 +283,20 @@ df {
 <li class="pad"><p2 class="change">To contact the Shark, check out the <a href="Contact-Social.html">Contact</a> page with options from <a href="https://twitter.com/theFloodShark">social media</a> to email</p2></li></ul> -->
 
 
-<center><div class="container">
-    
-<div class="row">
-  
-<a href="TheFloodSharkDownloads.html" title="Downloads"><div class="blockx"><a href="TheFloodSharkDownloads.html"><h12>Downloads</h12></a></div></a>    
-    
-<a href="EPK.html" title="Eletronic Press Kit (EPK)"><div class="blocky"><a href="EPK.html"><h12>EPK</h12></a></div></a>
-    
-<a href="http://hyperurl.co/sentimentalshark" title="Stream Audio"><div class="blockz"><a href=""><h12>Stream Audio</h12></a></div></a>
-    
-</div>
-    
-<div class="row">
-        
-<a href="https://www.youtube.com/channel/UCrcvj6Q-V4S-xad_Y_gPTFw/videos" title="Stream Video"><div class="blocka"><a href="https://www.youtube.com/channel/UCrcvj6Q-V4S-xad_Y_gPTFw/videos"><h12>Stream Video</h12></a></div></a>    
-    
-<a href="Contact-Social.html" title="Contact"><div class="blockb"><a href="Contact-Social.html"><h12>Contact</h12></a></div></a>
-    
-<a href="Contribute-Support.html" title="Contribute / Support"><div class="blockc"><a href="Contribute-Support.html"><h12>Contribute / Support</h12></a></div></a>
-       
-</div>
-    
+<center><div class="container flex-container">
+
+<div class="block blockx"><a href="TheFloodSharkDownloads.html"><h4>Downloads</h4></a></div> 
+
+<div class="block blocky"><a href="EPK.html"><h4>EPK</h4></a></div>
+
+<div class="block blockz"><a href=""><h4>Stream Audio</h4></a></div>
+
+<div class="block blocka"><a href="https://www.youtube.com/channel/UCrcvj6Q-V4S-xad_Y_gPTFw/videos"><h4>Stream Video</h4></a></div>    
+
+<div class="block blockb"><a href="Contact-Social.html"><h4>Contact</h4></a></div>
+
+<div class="block blockc"><a href="Contribute-Support.html"><h4>Contribute / Support</h4></a></div>
+
 </div></center>
 
 <hr class="two">
