@@ -15,12 +15,12 @@ h2 {
     color:#FF8B6F;
     text-decoration-color: #FF8B6F;
 }
-h4 {
+h4.shoe {
 	font-size:36px;
     font-style: bold;
     text-align:center;
     font-family:'Buernard', Garamond, "Buenard", "EB Garamond",'EB Garamond';
-    text-decoration-color: #FF8B6F;
+    text-decoration-color: #00A5D1;
     }
 a {
     border-bottom: dashed 1px;
@@ -28,6 +28,10 @@ a {
     border-bottom: 1px dashed #FF8B6F;
     text-decoration: none;
 }
+p {
+        padding: 6px;
+        margin: 6px;
+    }
 u {    
     border-bottom: 1px dashed #00A5D1;
     text-decoration: none;
@@ -36,6 +40,10 @@ u:hover {
   Color: #FF8B6F;
   border-bottom: solid 2px;
 }
+h4:hover  {
+  Color: #FF8B6F;
+  border-bottom: solid 2px;
+    }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -43,9 +51,8 @@ u:hover {
   width: 100%;
 }
 .block {
- flex: 0 0 33.1%;
+  flex: 0 0 33.1%;
   height: 300px;
-  margin-bottom: 45px;
   background-color: #00A5D1;
   background-position: center center; /* center the image in the div */
   background-size: cover; /* cover the entire div */
@@ -67,30 +74,6 @@ x {
     color:#00A5D1;
     border-bottom: 2px solid #FFE097;
 }
-y {
-    text-align: center;  
-    font-size: 45px;
-    line-height: 110%;
-    font-family: 'Gentium Basic', Verdana, 'Slabo 27px', 'Vollkorn', serif;
-    text-decoration-color:#00A5D1;
-    color:#FF8B6F;
-    padding-top: 18px;
-    margin-top: 18px;
-    padding-bottom: 36px;
-    margin-bottom: 36px;
-}
-y.fix {
-    text-align: center;  
-    font-size: 39px;
-    line-height: 110%;
-    font-family: 'Gentium Basic', Verdana, 'Slabo 27px', 'Vollkorn', serif;
-    text-decoration-color:#00A5D1;
-    padding-top: 18px;
-    margin-top: 18px;
-    padding-bottom: 36px;
-    margin-bottom: 36px;
-    color: #00A5D1;
-    }
 hr {
     border: none;
     height: 2px;
@@ -116,25 +99,9 @@ li.pad {
         padding-bottom: 6px;
         margin-bottom: 6px;
     }
-ul.two {
-    padding-bottom: 10px;
-    padding-top: 12px;
-    -moz-column-count: 4;
-    -moz-column-gap: 14px;
-    -webkit-column-count: 4;
-    -webkit-column-gap: 14px;
-    column-count: 4;
-    column-gap: 14px;
-}
 div {
     color: #00A5D1;
     padding-top: 14px;
-    }
-div.fixed {
-    color: #00A5D1;
-    padding-top: 18px;
-    margin-top: 18px;
-    margin-bottom: 21px;
     }
 df {
    text-decoration: inherit;
@@ -149,11 +116,6 @@ df {
     border-spacing: 10px; /* Optional */
     margin-left: auto;
     margin-right: auto;
-}
-.Column
-{
-    display: table-cell;
-    background-color: red; /*Optional*/
 }
 .btn {
   background: #00A5D1;
@@ -203,37 +165,6 @@ a.none {
 .blockc {
   background-image: url('Handshake2.png');
   }   
-.containers {
-    position: relative;
-    text-align: center;
-    color: #00A5D1;
-    }
-.bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-}
-.top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-}
-.top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-}
-.bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-}
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 </style>
 </head>
 <body>
@@ -249,95 +180,23 @@ a.none {
     
 <br>
 
-<!--      
-    
-    <li><p2><a href="TheFloodSharkDownloads.html" target="_blank">Downloads</a> - Freely download any of the FloodShark's discography and music videos</p2></li>
-    <ul><li>Feel free to support or pay-what-you-want on the <a href="Contribute-Support.html">Contributions</a> page</li></ul>
-
-<br>
-
-    <li><p2><a href="EPK.html" target="_blank">Electronic Press Kit (EPK)</a> - an ever-updating overview of The FloodShark's past, present, and future</p2></li>
-    
-<br>    
-    
-<li><p2> Stream the Shark via the audio players below or on all major streaming sites & stores including the following, among many others:</p2> 
-    <ul class="two"><li><a href="https://www.youtube.com/watch?v=haPyXCIcJyQ&list=PLhvUUc4b3HWjb2WDxWLUHogXfM1swaAB4" target="_blank">YouTube</a></li>
-    <li><a href="https://soundcloud.com/thefloodshark/sets/the-black-butterfly" target="_blank">Soundcloud</a></li>
-    <li><a href="https://thefloodshark.bandcamp.com/" target="_blank">Bandcamp</a></li>
-    <li><a href="https://open.spotify.com/album/4V9xBSgO1PwHNdZJQTm8Th" target="_blank">Spotify</a></li>
-    <a href="https://itunes.apple.com/us/album/let-loose-the-floodgates/id1242726271" target="_blank"><li>iTunes</li></a>
-    <li><a href="https://www.reverbnation.com/thefloodshark" target="_blank">ReverbNation</a></li>
-    <li><a href="https://www.amazon.com/Let-Loose-Floodgates-FloodShark/dp/B07125FYLL/ref=sr_1_1?ie=UTF8&qid=1499750886&sr=8-1&keywords=the+floodshark+let+loose+the+floodgates" target="_blank">Amazon</a></li>
-    <li><a href="https://play.google.com/store/music/album/The_Floodshark_The_Black_Butterfly?id=Bzye73l24z7jkpkn6gtkhg5lc4a" target="_blank">Google Play</a></li>
-    <li><a href="https://fanburst.com/thefloodshark" target="_blank">Fanburst</a></li>
-    <li><a href="https://listen.tidal.com/search/the%20floodshark">Tidal</a></li>
-    <li><a href="https://audiomack.com/artist/thefloodshark">Audiomack</a></li>
-    <li><a href="https://us.napster.com/search?query=The+floodshark">Napster</a></li>
-    <li><a href="http://muzoic.com/en/artist/the-floodshark">Muzoic</a></li>
-    <li><a href="www.deezer.com/artist/12120528">Deezer</a></li>
-    <li><a href="https://www.iheart.com/artist/the-floodshark-31526323/songs">iHeart Radio</a></li>
-    <li><a href="https://itunes.apple.com/us/artist/the-floodshark/1215635832">Apple Music</a></li>
-    </ul></li>
-
-<br>
-
-<li><p2>Stream music videos on the following sites or in the player below</p2></li>    
-    
-<br>
-    
-<li class="pad"><p2 class="change">To contact the Shark, check out the <a href="Contact-Social.html">Contact</a> page with options from <a href="https://twitter.com/theFloodShark">social media</a> to email</p2></li></ul> -->
-
-
 <center><div class="container flex-container">
 
-<div class="block blockx"><a href="TheFloodSharkDownloads.html"><h4><u>Downloads</u></h4></a></div>
+<div class="block blockx"><a href="TheFloodSharkDownloads.html"><h4 class='shoe'><u>Downloads</u></h4></a></div>
 
-<div class="block blocky"><a href="EPK.html"><h4><u>EPK</u></h4></a></div>
+<div class="block blocky"><a href="EPK.html"><h4 class='shoe'><u>EPK</u></h4></a></div>
 
-<div class="block blockz"><a href=""><h4><u>Stream Audio</u></h4></a></div>
+<div class="block blockz"><a href=""><h4 class='shoe'><u>Stream Audio</u></h4></a></div>
 
-<div class="block blocka"><a href="https://www.youtube.com/channel/UCrcvj6Q-V4S-xad_Y_gPTFw/videos"><h4><u>Stream Video</u></h4></a></div>    
+<div class="block blocka"><a href="https://www.youtube.com/channel/UCrcvj6Q-V4S-xad_Y_gPTFw/videos"><h4 class='shoe'><u>Stream Video</u></h4></a></div>    
 
-<div class="block blockb"><a href="Contact-Social.html"><h4><u>Contact</u></h4></a></div>
+<div class="block blockb"><a href="Contact-Social.html"><h4 class='shoe'><u>Contact</u></h4></a></div>
 
-<div class="block blockc"><a href="Contribute-Support.html"><h4><u>Contribute / Support</u></h4></a></div>
+<div class="block blockc"><a href="Contribute-Support.html"><h4 class='shoe'><u>Contribute / Support</u></h4></a></div>
 
 </div></center>
 
 <hr class="two">
-
-<!-- <center><y>Stream Audio</y></center>
-
-<center><div style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><embed><object data="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/267219869&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true" width="900" height="440"></embed></object></div></center>
-
-<p3>&nbsp;</p3>
-
-<center><div style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><iframe src="https://embed.spotify.com/?uri=spotify%3Aalbum%3A4V9xBSgO1PwHNdZJQTm8Th" width="900" height="440" frameborder="0" allowtransparency="true"></iframe></div></center>
-
-<br>
-
-<hr class="two">
-
-<center><y>Music Videos</y></center>
-
-<center><div class="fixed" style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><iframe width="900" height="440" src="https://www.youtube.com/embed/ws29jG6nvHE?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></center>
-
-<center><y class='fix'>Sentimental Shark</y></center>
-
-<center><div class="fixed" style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><iframe width="900" height="440" src="https://www.youtube.com/embed/mNJoFotVK3U" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></center>
-
-<!-- <center><y class='fix'>Kai</y></center>
-
-<center><div class="fixed" style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><iframe width="900" height="440" src="https://www.youtube.com/" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></center>
-
-<center><y class='fix'>Come Waves</y></center>
-
-<center><div class="fixed" style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><iframe width="900" height="440" src="https://www.youtube.com/" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></center>
-
-    <center><y class='fix'>Las Luces</y></center>
-
-<center><div class="fixed" style="border:1px solid #00A5D1;height:441px;width:901px;padding:8px;box-shadow: 0px 0px 4px 2px rgba(148,136,148,0.76)"><iframe width="900" height="440" src="https://www.youtube.com/" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe></div></center> -->
-
     
 <br>
 
