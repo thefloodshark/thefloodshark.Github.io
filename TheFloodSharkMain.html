@@ -140,6 +140,20 @@ a.none {
 .blockx:hover {
   background-color: #FFE097;
 }
+.blockx:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  display: block;
+  background: #FFE097;
+  opacity: 0;
+}
+.blockx:hover:after {
+  opacity: .5;
+}
 .blocky {
   background-image: url('EPKIcon2.png');
   background-position: center center; 
