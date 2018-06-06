@@ -56,20 +56,23 @@ u:hover {
   justify-content: center; */
   text-align: center;
 }
-/* .block:after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  display: block;
-  background: #FFE097;
-  opacity: 0;
+.block {
+    position: relative;
+}
+.block:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background: #FFE097;
+    opacity: 0;
 }
 .block:hover:after {
-  opacity: .5; 
-} */
+    opacity: 0.5;
+}
 x {
     margin: auto;
     text-align: center;  
@@ -151,9 +154,6 @@ a.none {
   background-image: url('EPKIcon2.png');
   background-position: center center; 
   }
-.blocky:hover {
-  background-color: #FFE097;
-}    
 .blockz {
   background-image: url('StreamAudio.png');
   }
