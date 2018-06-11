@@ -109,6 +109,21 @@ ul.topnav li.left {float: left;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+
+.container{
+ background: gray;
+ min-height: 400px;
+}
+
+/*Can achive using vw css unit*/
+.row-full{
+      width: 100vw;
+      position: relative;
+      margin-left: -50vw;
+      height: 100px;
+      margin-top: 100px;
+      left: 50%;
+}    
     
 .animated {
             -webkit-animation-duration: 3s;
@@ -132,6 +147,8 @@ ul.topnav li.left {float: left;}
             animation-name: fadeIn;
          }
 
+    
+    
 </style>
 </head>
 
@@ -150,5 +167,13 @@ ul.topnav li.left {float: left;}
     <h2><i>THE NAVAL <span style="color:#c1b098">AUTHORITY</span><sup>TM or SM</sup></i></h2>
   <h2>BUILDING (Dreams, The Future) ON WATER</h2>
   </div>    
+      
+<div class="container">
+    
+    <div class="row" style="height:100px; background: #fff;"> this is ok</div>
+    <div class="row row-full" style="height:100px; background: #f00;">
+        this should take 100% width
+    </div>
+</div>      
       
 </body>
