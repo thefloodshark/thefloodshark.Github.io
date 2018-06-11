@@ -175,6 +175,41 @@ div.right {
     height: 210px;
 		} 
 
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23%;
+    padding: 8px;
+}
+
+.column img {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }
+}
+    a.none {text-decoration: none;}    
+    
 </style>
 </head>
 
@@ -209,15 +244,15 @@ div.right {
 <div class="row">
         
     <div class="column">
-        <img src="facebook.svg" style="width:100%"> 
+        <img src="facebook.svg"> 
         </div>
 
     <div class="column">
-        <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/Synthetic-Shark-Album-Art.png" style="width:100%">   
+        <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/Synthetic-Shark-Album-Art.png">   
         </div>
 
     <div class="column">
-        <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/HungryShark2-Alteration-2.jpg" style="width:100%">
+        <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/HungryShark2-Alteration-2.jpg">
         </div>
 
     <div class="column">
