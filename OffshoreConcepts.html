@@ -68,6 +68,7 @@ ul.topnav {
     Font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
     font-weight: 700;
     overflow: hidden;
+    opacity: 0.5;
     background-color: #618dd3;
 }
  /* .stripes {
@@ -200,18 +201,7 @@ div.right {
     max-width: 200px;
     max-height: 200px;
 }
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
+
 .row {
         width: 100%;
         margin: 0 auto;
@@ -240,11 +230,42 @@ div.right {
         width: 100%;
    }
 }
-    a.none {text-decoration: none;}    
+    a.none {text-decoration: none;}   
     
+#child {
+    line-height: 150px;
+} 
+    
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #39393a;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #e9d2f4;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
+} 
 </style>
 </head>
-
 <body>
     
 <ul class="topnav">
@@ -262,16 +283,16 @@ div.right {
   </div>    
       
 <div class="container">
-    <div class="row" style="height:210px; background: #c1b098; color: #e9d2f4;"><center>About</center></div>
-    <div class="row" style="height:210px; background: #e9d2f4; color: #39393a;">
+    <div id="child" class="row" style="height:310px; background: #c1b098; color: #e9d2f4;"><center>About</center></div>
+    <div class="row" style="height:310px; background: #e9d2f4; color: #39393a;">
         <div class="wrapper">
 		<div class="left">Product / Service and background</div>
 		<div class="right">Product / Service and background</div>
 	</div>
     </div>
-    <div class="row" style="height:210px; background: #39393a; color: #e9d2f4;">Services</div>
-    <div class="row" style="height:210px; background: #9b9b93; color: #39393a">Social Media - use FP gallery</div>
-    <div class="row" style="height:210px; background: #618dd3; color: #e9d2f4;">Address or additional information</div>
+    <div class="row" style="height:310px; background: #39393a; color: #e9d2f4;">Services</div>
+    <div class="row" style="height:310px; background: #9b9b93; color: #e9d2f4">Social Media - use FP gallery</div>
+    <div class="row" style="height:310px; background: #618dd3; color: #e9d2f4;">Address or additional information</div>
     
 <div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row">
         
@@ -284,7 +305,9 @@ div.right {
     </div>
 
     <div class="column">
-        <a href="https://www.instagram.com/"><img src="instagram.svg"></a>
+        <a href="https://www.instagram.com/"><img src="instagram.svg"></a><div class="overlay">
+    <div class="text">Instagram</div>
+  </div>
         </div>
 
     <div class="column">
