@@ -82,6 +82,7 @@ dip {
 }
 .container  {
   text-align: center;
+  align-content: center;
 }
 .pad {
     margin-bottom: 2px;
@@ -111,6 +112,7 @@ dip {
 .row {
         width: 100%;
         max-width: 640px;
+    
     }    
     
 /* Clear floats after the columns */
@@ -118,7 +120,7 @@ dip {
     content: "";
     display: table;
     clear: both;
-}    
+}  
     
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
@@ -157,7 +159,7 @@ dip {
     <!-- <center><a href="https://www.wikihow.com/Send-Bitcoins"><img src="bitcoin-coin.svg" alt="" width="65" height="65" ></a></center> -->
 
 <!-- Photo Grid -->
-<div class="row"> 
+<div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row"> 
   <div class="column">
     <h><center>Venmo</center></h>
     <img src="Venmo.png" style="width:100%;">
