@@ -46,7 +46,7 @@ h2 {
 
 div { 
     font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
-    font-size: 24px;
+    font-size: 27px;
     font-weight: 700;
     }
         
@@ -175,7 +175,6 @@ div.left {
 	float: left;
 	width: 49.8%;
 	background: #e9d2f4;
-    border : 1px solid #618dd3;
     Height: 210px;
 		}	
 
@@ -183,7 +182,6 @@ div.right {
     float: right;
     width: 49.8%;
     background: #e9d2f4;
-    border : 1px solid #618dd3;
     height: 210px;
 		} 
 
@@ -242,7 +240,6 @@ div.right {
   bottom: 0;
   left: 0;
   right: 0; */
-  height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
@@ -290,8 +287,8 @@ div.right {
 		<div class="right">Product / Service and background</div>
 	</div>
     </div>
-    <div class="row" style="height:310px; background: #39393a; color: #e9d2f4;">Services</div>
-    <div class="row" style="height:310px; background: #9b9b93; color: #e9d2f4">Address and/or other info</div>
+    <div id="child" class="row" style="height:310px; background: #39393a; color: #e9d2f4;">Services</div>
+    <div id="child" class="row" style="height:310px; background: #9b9b93; color: #e9d2f4">Address and/or other info</div>
     <div class="row" style="height:310px; background: #618dd3; color: #e9d2f4;">Contact</div>
     
 <div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row">
@@ -305,7 +302,7 @@ div.right {
     </div>
 
     <div class="column">
-        <div class="overlay"><div class="text"><a href="https://www.instagram.com/"><img src="instagram.svg"></a>
+        <div class="overlay"><a href="https://www.instagram.com/"><img src="instagram.svg"></a><div class="text">
     Instagram</div>
   </div>
         </div>
