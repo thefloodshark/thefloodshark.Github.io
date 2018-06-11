@@ -83,6 +83,59 @@ dip {
 .container  {
   text-align: center;
 }
+.pad {
+    margin-bottom: 2px;
+    padding-bottom: 2px;
+    }    
+    
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23%;
+    padding: 8px;
+    padding-bottom: -2px;
+}
+
+.column img {
+    margin-top: 12px;
+    width: 100%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }
+}
+    a.none {text-decoration: none;}
+</style>
+</head>
+<body>
+
+<a class="btn" href="http://thefloodplains.com/"></a>  
+    
+    <center><h1 class="pad">Photographs, Illustrations, & Album Art</h1></center>
+    
+    <hr>
+
+    <!-- Header -->
+<div class="header">
+  <center><h2>Shark Art</h2></center>
+</div>    
 #div1 {
             background-image: url('Paypal.jpg');
             background-position: center center; /* center the image in the div */
