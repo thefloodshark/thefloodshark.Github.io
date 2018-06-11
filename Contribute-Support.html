@@ -108,13 +108,18 @@ dip {
     width: 100%;
 }
 
+.row {
+        width: 100%;
+        max-width: 640px;
+    }    
+    
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
-}
-
+}    
+    
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
     .column {
