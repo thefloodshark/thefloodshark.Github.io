@@ -132,64 +132,6 @@ ul.topnav li.left {float: left;}
             animation-name: fadeIn;
          }
 
-@import url('//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css');
-
-@colorBase: rgba(68, 138, 175, 1);
-
-.transition (@prop: all, @time: 1s, @ease: linear) {
-	-webkit-transition: @prop @time @ease;
-	-moz-transition: @prop @time @ease;
-	-o-transition: @prop @time @ease;
-	-ms-transition: @prop @time @ease;
-	transition: @prop @time @ease;
-}
-.universal-inline-block {
-	display: inline-block;
-	zoom: 1;
-	*display: inline;
-}
-
-.social-icons {
-  text-align: center;
-  font-family: 'Roboto', Corbel, sans-serif;
-  font-weight: 300;
-  font-size: 1.5em;
-  color: @colorBase;
-  h1 {
-    margin: 40px 0;
-  }
-  ul {
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		li {
-			.universal-inline-block;
-			vertical-align:  bottom;
-			a {
-				display: block;
-				font-size: 1.4em;
-				margin: 0 5px;
-				text-decoration: none;
-				i {
-					color: @colorBase;
-					.transition(all, 0.2s, ease-in);
-				}
-				&:hover {
-					i {
-						color: darken(@colorBase, 20%);
-					}
-				}
-				&:focus, &:active {
-					i {
-						transition: none;
-						color: darken(@colorBase, 40%);
-					}
-				}
-			}
-		}
-	}
-}    
- 
 </style>
 </head>
 
@@ -207,23 +149,6 @@ ul.topnav li.left {float: left;}
   <h2><b><u>OFFSHORE CONCEPTS</u></b></h2>
     <h2><i>THE NAVAL <span style="color:#c1b098">AUTHORITY</span><sup>TM or SM</sup></i></h2>
   <h2>BUILDING (Dreams, The Future) ON WATER</h2>
-  </div>
-      
-<div class="container">
-	<div class="row">
-		<div class="span10 offset1">
-			<div class="social-icons">
-				<h1>Social Media</h1>
-				<ul>
-					<li><a href="https://twitter.com"><i class="icon-twitter"></i></a></li>
-					<li><a href="https://facebook.com"><i class="icon-facebook"></i></a></li>
-					<li><a href="https://instagram.com"><i class="icon-instagram"></i></a></li>
-					<li><a href="https://pinterest.com"><i class="icon-pinterest"></i></a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>      
-      
+  </div>    
       
 </body>
