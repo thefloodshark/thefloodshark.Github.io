@@ -10,6 +10,7 @@
 <link href="https://fonts.googleapis.com/css?family=Vollkorn" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|PT+Sans|Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Cantarell" rel="stylesheet">
 <!-- <script>$("#test h2").addClass("load");</script> -->
 <style>
 body {
@@ -35,7 +36,7 @@ body {
 url(BoatWater.jpg);
       }
 h2 {
-    font-family: corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
+    font-family: 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
     font-size: 32px;
     }    
     
@@ -44,7 +45,7 @@ Div.two {
     width: 100%;
     font-size: 32px;  
     max-width: 960px;
-    font-family: corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
+    font-family: 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
     margin: 0 auto !important;
     float: none !important;
     z-index: 2;
@@ -53,7 +54,7 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    Font-family: corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
+    Font-family: 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
     overflow: hidden;
     background-color: #618dd3;
 }
@@ -149,7 +150,29 @@ ul.topnav li.left {float: left;}
          .fadeIn {
             -webkit-animation-name: fadeIn;
             animation-name: fadeIn;
-         }   
+         } 
+
+div.wrapper {
+	position: relative;
+	clear: both;
+    width: 100%;
+		}
+div.left {
+	float: left;
+	width: 49.5%;
+	background: #e9d2f4;
+    border : 1px solid #618dd3;
+    Height: 90px;
+		}	
+
+div.right {
+    float: right;
+    width: 49.5%;
+    background: #ffffff;
+    border : 1px solid #618dd3;
+    height: 90px;
+		} 
+
 </style>
 </head>
 
@@ -171,18 +194,12 @@ ul.topnav li.left {float: left;}
       
 <div class="container">
     <div class="row" style="height:210px; background: #c1b098;"><center>Services Descriptions</center></div>
-    <div class="row" style="height:210px; background: #e9d2f4;">Split this Div in half<div id="left">
-  <div class="container">
-     <div id="object1"></div>
-     <div id="object2"></div>
- 
-  <div id="right">
-     <div id="object3"></div>
-     <div id="object4"></div>
-  </div>
-         <br style="clear:both;"/>
+    <div class="row" style="height:210px; background: #e9d2f4;">Split this Div in half	
+        <div class="wrapper">
+		<div class="left">Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box Left Box </div>
+		<div class="right">Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box Right Box </div>
+	</div>
     </div>
-</div>
     <div class="row" style="height:210px; background: #39393a; color: #e9d2f4;">What Here</div>
     <div class="row" style="height:210px; background: #9b9b93;">Hi</div>
     <div class="row" style="height:210px; background: #618dd3; color: #e9d2f4;">Social Media centered into here</div>
