@@ -73,8 +73,8 @@ ul.topnav {
     Font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
     font-weight: 700;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.85);
-    /* opacity: 0.8; make everything but the text go away in opacity */
+    /* background-color: rgba(0, 0, 0, 0.85); */
+    opacity: 0.8;
     background-color: #1c3144;
 }
  /* .stripes {
@@ -212,7 +212,11 @@ div.right {
         vertical-align: middle;
         line-height: 90px;
         /* opacity: 0.9; */
-        background: rgba(0, 0, 0, 0.85);
+        /* background: rgba(0, 0, 0, 0.85); */
+    }
+div.faded
+    {
+        opacity: 0.85;
     }
 /* Clear floats after the columns */
 .row:after {
@@ -243,34 +247,6 @@ div.right {
 #childtwo {
     line-height: 72px;
 }     
-    
-.overlay {
-  /* position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0; 
-  width: 100%; */
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #39393a;
-}
-
-.fade:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: #e9d2f4;
-  font-size: 20px;
-  position: absolute;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%); */
-  text-align: center;
-  font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
-} 
 </style>
 </head>
 <body>
@@ -289,7 +265,7 @@ div.right {
   <!-- <h2>BUILDING (Dreams, The Future) ON WATER</h2> -->
   </div>    
       
-<div class="container">
+<div class="container faded">
     <div id="childtwo" class="row" style="height:310px; background: #ffba08; color: #618dd3;"><center>About</center></div>
     <div class="row" style="height:310px; background: #a2aebb; color: #d00000;">
         <div class="wrapper">
