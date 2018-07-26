@@ -86,19 +86,39 @@ p.five {
     margin-right: auto;
     }
 a.none {text-decoration: none;}
+.animated {
+            -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+         }
+         
+         @-webkit-keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+         }
+         
+         .fadeIn {
+            -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+         }
 </style>
 </head>
 <body>
     
     
 <a class="btn" href="http://thefloodplains.com/"></a>
-    
-    
+
 <center><h1>Floodplain Productions</h1></center>
-    <p><b>An enigmatic, virtual record label,</b> providing the fertile seeds and solvent for a plethora of modern producers and musicians, including everybody's favorite cartilaginous predator, The FloodShark. Floodplain Productions - generating sonic waves for all audio-surfers.</p>
+    <p class="animated fadeIn"><b>An enigmatic, virtual record label,</b> providing the fertile seeds and solvent for a plethora of modern producers and musicians, including everybody's favorite cartilaginous predator, The FloodShark. <span style="color:#00A5D1"><b>Floodplain Productions</b></span> - surfing the sonic waves with an eclectic style.</p>
     
     <hr>
-    
+
 <center><h2 style='margin-bottom: 18px'>Production resources and links</h2></center>
     
     <center><p class="center">A collection of excellent music production, playing, and theory resources:</p></center>
@@ -127,7 +147,7 @@ a.none {text-decoration: none;}
     
     <hr>
     
-    <center><h2>Collaborators and special thanks</h2></center>
+    <center><h2>Collaborations and special thanks</h2></center>
     <p class="center"><b>Shoutout</b> to all Floodplain Productions collaborators over the years:</p>
         <ul id="sub"><li>Visual and graphic artists Lakshisa, Three Six Five, Dominik Minet, Gianessi, m. turan ercan, Marvdrock, iconsmind.com, and icons.design from the Noun Project, as well as Freepik from flaticon.com</li>
         <li><a href="https://www.instagram.com/schwilldaddy/">visual artist William Luo</a></li> 
@@ -136,9 +156,10 @@ a.none {text-decoration: none;}
         <li>saxophonist <a href="https://soundcloud.com/martymcglovin">Marty McGlovin'</a></li>
         <li>artist and apparel creator Don Jones</li>
         <li>graphic designer and video editor <a href="https://www.instagram.com/ebender.design/">Eddie Bender</li></a>
-        <li>entepreneur William Kabrick</li>
+        <li>entepreneur William Kabrick - Flamingo Apparel</li>
         <li><a href="http://flourishingcreative.com/">Flourish Creative Studios</li></a>
         <li>Offshore Concepts</li>
+        <li>Photographer, web developer, and engineer <a href="https://www.instagram.com/maruchikim/">Maruchi Kim</a></li>
         <li>web developer Aaron Clemmons</li> 
         <li><a href="">Jugal Patel</a>, Pulitzer Prize winner and coding extraordinaire for the New York Times</li></ul>
 
