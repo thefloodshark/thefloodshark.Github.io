@@ -49,7 +49,7 @@ url(BoatWater.jpg);
     background-attachment: fixed;
       }
     
-@media (max-width: 600) {
+@media screen and (max-width: 600px) {
 
     body {
     margin: 0;
@@ -233,7 +233,49 @@ div.right {
     height: 210px;
 		} 
 
+/* Create four equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 23%;
+    padding: 8px;
+}
 
+.column img {
+    margin-top: 12px;
+    margin-bottom: 6px;
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.row {
+        width: 100%;
+        margin: 0 auto;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 93px;  
+    }
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+   }
+}
     a.none {text-decoration: none;}   
     
 #child {
