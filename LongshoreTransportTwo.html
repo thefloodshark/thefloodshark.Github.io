@@ -1,6 +1,6 @@
 <head>
-<title>Offshore Conceptstwo - The Naval Authority</title>
-<meta name="description" content="Offshore Concepts Two - The Naval Authority..." />
+<title>Offshore Concepts - The Naval Authority</title>
+<meta name="description" content="Offshore Concepts - The Naval Authority..." />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="shortcut icon" href="WaterDrop.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -24,9 +24,17 @@ body {
     max-width: 100%;
     background-attachment: fixed;
     /* background-repeat: repeat-x; */
-    background-size: contain;
-    -moz-background-size: contain;
-    /* background:#a2aebb; */
+    /* background-size: contain;
+    -moz-background-size: contain;*/
+    background:#9b9b93;
+    /* position:static;
+    /* background-repeat:repeat-x;
+    background-attachment:fixed;
+    background-position: left top;
+    position:absolute;
+    height:610px
+    width: ?px;
+    margin:0; */
     background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     background: repeating-linear-gradient(
@@ -36,30 +44,37 @@ body {
   rgba(0, 0, 0, 0.3) 1px,
   rgba(0, 0, 0, 0.3) 2px
 ),
-url(ShipBuilding2.jpg);
+url(BoatWater.jpg);
+    background-attachment: fixed;
       }
 h2 {
     font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     }
     
 h2.bold {
     font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', sans-serif;
-    font-size: 46px;
+    font-size: 40px;
     font-weight: 900;
     }    
-
+divthree {
+    float: left;
+    margin-top: 80%;
+    Width: 500px;
+    background-color:#9b9b93;
+}
 div { 
     font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
     font-size: 27px;
     font-weight: 700;
-    }        
+    }
+        
 Div.two {
-    Color: #1c3144;
+    Color: #e9d2f4;
     width: 100%;
-    font-size: 40px;  
-    max-width: 1000px;
+    font-size: 32px;  
+    max-width: 960px;
     font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
     margin: 0 auto !important;
     float: none !important;
@@ -73,9 +88,9 @@ ul.topnav {
     Font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
     font-weight: 700;
     overflow: hidden;
-    /* background-color: rgba(0, 0, 0, 0.85); */
-    opacity: 0.8;
-    background-color: #1c3144;
+    opacity: 0.7;
+    /* background: rgba(0, 0, 0, 0.85); */
+    background-color: #618dd3;
 }
  /* .stripes {
   background: repeating-linear-gradient(
@@ -101,7 +116,7 @@ font-family: 'PT Sans', sans-serif;
 */
 ul.topnav li a {
     display: block;
-    color: #d00000;
+    color: #e9d2f4;
     text-align: center;
     padding: 27px 38px;
     text-decoration: none;
@@ -134,8 +149,9 @@ ul.topnav li.left {float: left;}
     ul.topnav li.right, 
     ul.topnav li {float: none;}
 }
+
 .container{
- background: #a2aebb;
+ background: #e9d2f4;
  min-height: 450px;
 }
 
@@ -147,7 +163,8 @@ ul.topnav li.left {float: left;}
       height: 210px;
       margin-top: 210px;
       left: 50%;
-}   
+}    
+    
 .animated {
             -webkit-animation-duration: 3s;
             animation-duration: 3s;
@@ -178,14 +195,14 @@ div.wrapper {
 div.left {
 	float: left;
 	width: 49.8%;
-	background: #a2aebb;
+	background: #e9d2f4;
     Height: 210px;
 		}	
 
 div.right {
     float: right;
     width: 49.8%;
-    background: #a2aebb;
+    background: #e9d2f4;
     height: 210px;
 		} 
 
@@ -210,13 +227,7 @@ div.right {
         display: inline-block;
         text-align: center;
         vertical-align: middle;
-        line-height: 90px;
-        /* opacity: 0.9; */
-        /* background: rgba(0, 0, 0, 0.85); */
-    }
-div.faded
-    {
-        opacity: 0.85;
+        line-height: 93px;  
     }
 /* Clear floats after the columns */
 .row:after {
@@ -247,55 +258,107 @@ div.faded
 #childtwo {
     line-height: 72px;
 }     
+    
+.overlay {
+  /* position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; 
+  width: 100%; */
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #39393a;
+}
+
+.fade:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: #e9d2f4;
+  font-size: 20px;
+  position: absolute;
+  /* top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); */
+  text-align: center;
+  font-family: 'Lato', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', sans-serif;
+}
+
+/* contact form */
+    
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
 </style>
 </head>
 <body>
     
 <ul class="topnav">
-  <li><a href="Contact">Contact</a></li>
-  <li><a href="SecurityTwo.html">Security</a></li>
-  <li><a href="LongshoreTransportTwo.html">Long-shore Transport</a></li>
-  <li><a href="EngineeringTwo.html">Engineering</a></li>
-  <li class="left"><a class="active" href="OffShoreconceptsTwo.html"><b>OFFSHORE CONCEPTS<b></a></li>
+  <li><a href="Contact.html">Contact</a></li>  
+  <li><a href="Security.html">Security</a></li>
+  <li><a class="active" href="LongshoreTransport.html">Long-shore Transport</a></li>
+  <li><a href="Engineering.html">Engineering</a></li>
+  <li class="left"><a href="OffshoreConcepts.html"><b>OFFSHORE CONCEPTS<b></a></li>
 </ul>
 
-<div id="test" class="animated fadeIn two" style="padding: 8%; padding-bottom: 36%;">
-  <h2 class="bold"><u>OFFSHORE CONCEPTS</u></h2>
-    <h2>THE NAVAL <span style="color:#ffba08">AUTHORITY</span><sup>TM</sup></h2>
+<div id="test" class="animated fadeIn two" style="padding: 6%; padding-bottom: 6%;">
+  <h2 class="bold"><u>Long-shore Transport</u></h2>
+    <h2>Long-shore transport: Logistics and contracting are privately sourced and managed.</h2>
   <!-- <h2>BUILDING (Dreams, The Future) ON WATER</h2> -->
   </div>    
-      
-<div class="container faded">
-    <div id="childtwo" class="row" style="height:310px; background: #ffba08; color: #618dd3;"><center>About</center></div>
-    <div class="row" style="height:310px; background: #a2aebb; color: #d00000;">
-        <div class="wrapper">
-		<div id="child" class="left">Product / Service and background</div>
-		<div id="child" class="right">Product / Service and background</div>
-	</div>
-    </div>
-    <div id="child" class="row" style="height:310px; background: #1c3144; color: #618dd3">Services</div>
-    <div id="child" class="row" style="height:310px; background: #d00000; color: #1c3144">Address and/or other info</div>
-    <div id="child" class="row" style="height:310px; background: #618dd3; color: #ffba08;">Contact</div>
-    
-<div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row">
-        
-    <div class="column">
-        <a href="https://facebook.com"><img src="facebook.svg"></a> 
-        </div>
 
-    <div class="column">
-        <a href="https://www.twitter.com/"><img src="twitter.svg"></a>
-    </div>
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-    <div class="column">
-        <!-- <div class="fade"> --> <a href="https://www.instagram.com/"><img src="instagram.svg"></a> <!-- <div class="overlay"><div class="text">
-    Instagram</div></div>
-  </div> -->
-        </div>
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <div class="column">
-        <a href="https://www.linkedin.com/"><img src="linkedin.svg"></a>
-        </div>
+    <label for="country">Company</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Inquiry</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
 </div>
     
 </div>      
