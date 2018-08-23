@@ -51,25 +51,13 @@ url(BoatWater.jpg);
     
 @media (max-width: 600) {
 
-      body {
+    body {
     margin: 0;
     z-index: 1;
     width: 100%;
     /* min-height: 850px;*/
-    max-width: 600px;
     background-attachment: fixed;
-    /* background-repeat: repeat-x; */
-    /* background-size: contain;
-    -moz-background-size: contain;*/
     background:#9b9b93;
-    /* position:static;
-    /* background-repeat:repeat-x;
-    background-attachment:fixed;
-    background-position: left top;
-    position:absolute;
-    height:610px
-    width: ?px;
-    margin:0; */
     background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     background: repeating-linear-gradient(
@@ -81,7 +69,7 @@ url(BoatWater.jpg);
 ),
 url(BoatWater.jpg);
     background-attachment: fixed;
-          object-fit: cover;
+          object-fit: fill;
       }
 
 }    
@@ -187,14 +175,9 @@ ul.topnav li.left {float: left;}
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
 }
 
-@media (max-width: 600) {
-
-ul.topnav li.left {float: none;}
-
-}    
-    
 .container{
  background: #e9d2f4;
  min-height: 450px;
