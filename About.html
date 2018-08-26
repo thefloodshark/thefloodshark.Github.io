@@ -80,6 +80,8 @@ li.sup a {
 li.sup {
     margin: 0;
     text-indent: 0em;
+    padding-left: 0;
+    padding-bottom: 0px;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
     text-decoration: none;
     }
@@ -135,7 +137,7 @@ ul.topnav {
     margin-left: auto;
     margin-right: auto;
 }
-ul.topnav li {float: none;}
+ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
@@ -147,6 +149,13 @@ ul.topnav li a {
     font-weight: 700;
 }
 
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 ul.topnav li a:hover:not(.active) {background-color: #00A5D1;}
 
@@ -163,6 +172,7 @@ ul.topnav li.left {float: left;}
 </head>
 
 <ul class="topnav">
+    <ul class="topnav-centered">
   <li class="sup"><a href="About" class="none">About</a></li>
   <li class="sup"><a href="Articles" class="none">Articles</a></li>
   <li class="sup"><a href="CodingCorner" class="none">Coding Corner</a></li>
@@ -172,7 +182,7 @@ ul.topnav li.left {float: left;}
   <li class="sup"><a href="ClassicalCorner" class="none">Classical Corner</a></li>
     <li class="sup"><a href="Gallery" class="none">Gallery</a></li>
     <li class="sup"><a href="Contribute-Support" class="none">Contribute</a></li>
-  <li class="sup"><a class="active" href="http://www.thefloodplains.com/" class="none">The Floodplains</a></li></ul>
+        <li class="sup"><a class="active" href="http://www.thefloodplains.com/" class="none">The Floodplains</a></li></ul></ul>
 
 <div class="fullwidth">
 <center><h>The Floodplains</h></center>
