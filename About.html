@@ -36,8 +36,10 @@ ul, li {
     color: black;
     font-weight: 500;
 } 
-    .fullwidth {
-          max-width: 960px;
+.fullwidth {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     }    
 ul {
     width: 80%;
@@ -69,6 +71,12 @@ li {
     padding-bottom: 7px;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
 }    
+li.sup a {
+    margin: 0 0;
+    list-style-position: inside;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    text-decoration: none;
+    }
 a1.specialeffects {
     border-bottom: dashed 1px; text-decoration: none; 
 }
@@ -108,12 +116,11 @@ html, body {
   padding: 0.25rem 9999rem;
   background: rgba(0, 0, 0, 0.5);
 }    
-    
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    Font-family: 'Buenard', 'Cantarell', corbel, 'Roboto', 'PT Sans', 'Open Sans', 'Lato', corbel, sans-serif;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
     font-weight: 700;
     overflow: hidden;
     opacity: 0.7;
@@ -121,7 +128,6 @@ ul.topnav {
     background-color: none;
     max-width: none;
 }
-
 ul.topnav li {float: right;
 }
 
@@ -129,9 +135,8 @@ ul.topnav li a {
     display: block;
     color: #FF8B6F;
     text-align: center;
-    padding: 6px 6px;
+    margin: 0px 6px;
     text-decoration: none;
-    font-size: 100%;
     font-weight: 700;
 }
 
@@ -150,14 +155,14 @@ ul.topnav li.left {float: left;}
 </head>
 
 <ul class="topnav">
-  <li><a href="About">About</a></li>
-  <li><a href="Articles">Articles</a></li>
-  <li><a href="CodingCorner.html">Coding Corner</a></li>
-  <li><a href="Contact-Social.html">Contact/Social</a></li>
-  <li><a href="Contact-Social.html">The FloodShark</a></li>
-  <li><a href="Contact-Social.html">Floodplain Productions</a></li>
-  <li><a href="Contact-Social.html">Classical Corner</a></li>
-  <li><a class="active" href="http://www.thefloodplains.com/">The Floodplains</a></li></ul>
+  <li class="sup"><a href="About">About</a></li>
+  <li class="sup"><a href="Articles">Articles</a></li>
+  <li class="sup"><a href="CodingCorner.html">Coding Corner</a></li>
+  <li class="sup"><a href="Contact-Social.html">Contact/Social</a></li>
+  <li class="sup"><a href="Contact-Social.html">The FloodShark</a></li>
+  <li class="sup"><a href="Contact-Social.html">Floodplain Productions</a></li>
+  <li class="sup"><a href="Contact-Social.html">Classical Corner</a></li>
+  <li class="sup"><a class="active" href="http://www.thefloodplains.com/">The Floodplains</a></li></ul>
 
 <div class="fullwidth">
 <center><h>The Floodplains</h></center>
