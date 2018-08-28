@@ -14,41 +14,11 @@
     margin-right: auto;
     }
  
-@media screen and (max-width: 600px){
-    .fullwidth {
-    max-width: 90%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    list-style:none;
-    text-align:center;
-    align-items: center;
-    }
-}    
-
-/* @media only screen and (max-width: 600px){
-    .fullwidth {
-    max-width: 90%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    list-style:none;
-    text-align:center;
-    align-items: center;
-    }
-}     */
-    
 h1 {
     font-size: 45px;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia;
 }
-    
-@media only screen and (max-width: 600px){
-    h1 {
-    max-width: 90%;
-    width: 90%;
-    }
-}           
+     
 h2 {
     font-size: 36px;
     padding-bottom: 10px;
@@ -110,11 +80,6 @@ ul.topnav li a.active {background-color: #00A5D1;}
 
 ul.topnav li.left {float: left;}
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-    ul.topnav li.left {float: none;}
-} 
 div.pad {
     padding-bottom: 4px;    
     }    
@@ -124,6 +89,44 @@ ul.two
 }
 a.none {text-decoration: none;
         border-bottom: none;}    
+
+@media screen and (max-width: 600px){
+    .fullwidth {
+    max-width: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style:none;
+    text-align:center;
+    align-items: center;
+    }
+}    
+
+/* @media only screen and (max-width: 600px){
+    .fullwidth {
+    max-width: 90%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    list-style:none;
+    text-align:center;
+    align-items: center;
+    }
+}     */    
+
+@media only screen and (max-width: 600px){
+    h1 {
+    max-width: 90%;
+    width: 90%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}    
+    
 </head>
 </style>
 <body>
