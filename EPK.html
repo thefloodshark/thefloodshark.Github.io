@@ -102,22 +102,83 @@ div {
     }
 h2.pad {
     font-size: 34px;    
+    }  
+ul.four
+    {
+    width: 100%;
+}
+a.none {text-decoration: none;
+        border-bottom: none;}
+.fullwidth {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
     }    
+ul.topnav {
+    list-style-type: none;
+    list-style:none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    font-weight: 700;
+    overflow: hidden;
+    opacity: 0.7;
+    /* background: rgba(0, 0, 0, 0.85); */
+    background-color: none;
+}
+ul.topnav li {display: inline;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #FF8B6F;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #00A5D1;}
+
+ul.topnav li a.active {background-color: #00A5D1;}
+
+ul.topnav li.left {float: left;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}
+    div.pad {
+        padding-bottom: 4px;
+    }  
 a.none {text-decoration: none;}
 img.solid {border-style: solid;}
 .border {border-style: solid;}
 </style>
 </head>
 <body>
-<a class="btn" href="http://thefloodplains.com/"></a>
-    
-<!-- <script type="text/javascript">
-    document.getElementById("Home").onclick = function () {
-        location.href = "http://thefloodplains.com/";
-    };
-</script> -->
-    
-<!-- h2 and ul/li used predominately -->
+
+<ul class="topnav four">
+  <li><a href="http://www.thefloodplains.com/" class="none"><i>Home</i></a></li>
+  <li><a href="TheFloodSharkMain" class="none"><i>FloodShark</i></a></li>
+  <li><a href="Articles" class="none">Downloads</a></li>
+  <li><a href="http://www.thefloodplains.com/EPK" class="active none">EPK</a></li>    
+  <li><a href="http://smarturl.it/sentimentalshark" class="none">Audio Stream</a></li>
+  <li><a href="https://www.youtube.com/channel/UCrcvj6Q-V4S-xad_Y_gPTFw/videos" class="none">Video Stream</a></li>
+  <li><a href="Contact-Social.html" class="none">Contact/Social</a></li>
+  <li><a href="Contribute-Support" class="none">Contribute</a></li></ul>
+
+<div class='fullwidth'>     
     
 <h2 class="pad colortwo">The FloodShark - announcing new LP titled Another William Blake and "Las Luces" single</h2>
     
