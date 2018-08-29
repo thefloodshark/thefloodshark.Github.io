@@ -57,13 +57,88 @@ ul {
     text-decoration-color: black;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia; 
     }
-a.none {text-decoration: none;}
+
+a.none {text-decoration: none;
+        border-bottom: none;}
+
+ul.two
+    {
+    width: 100%;
+}    
+    
+div.pad {
+    padding-bottom: 24px;    
+    }    
+    
+.full-width-bar {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  background: rgba(0, 0, 0, 0.5);
+}    
+ul.topnav {
+    list-style-type: none;
+    list-style:none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    font-weight: 700;
+    overflow: hidden;
+    opacity: 0.7;
+    /* background: rgba(0, 0, 0, 0.85); */
+    background-color: none;
+}
+ul.topnav li {display: inline;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #FF8B6F;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #00A5D1;}
+
+ul.topnav li a.active {background-color: #00A5D1;}
+
+ul.topnav li.left {float: left;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}       
+    
 </style>
 </head>
 <body>
 
-<a class="btn" href="http://thefloodplains.com/"></a> 
-    
+<div class="pad">
+<ul class="topnav two">
+  <li><a href="http://www.thefloodplains.com/" class="none"><i>Home</i></a></li>
+  <li><a href="About" class="active none">About</a></li>
+  <li><a href="Articles" class="none">Articles</a></li>
+  <li><a href="CodingCorner" class="none">Coding Corner</a></li>
+  <li><a href="Contact-Social" class="none">Contact/Social</a></li>
+  <li><a href="TheFloodSharkMain" class="none">The FloodShark</a></li>
+  <li><a href="FloodplainProductions" class="none">Floodplain Productions</a></li>
+  <li><a href="ClassicalCorner" class="none">Classical Corner</a></li>
+  <li><a href="Gallery" class="none">Gallery</a></li>
+  <li><a href="Contribute-Support" class="none">Contribute</a></li></ul></div> 
+ 
+<div class='fullwidth'>    
 <h1>Classical Corner</h1>
 <hr>
 <h2>Resources</h2> 
@@ -154,5 +229,5 @@ a.none {text-decoration: none;}
         <li><font color="#00A5D1"><b>Stravinsky</b></font> - Boulez</li>
         <li><font color="#00A5D1"><b>Tchaikovsky</b></font> - Dorati, Karajan</li>
         <li><font color="#00A5D1"><b>Wagner</b></font> - Karajan</li>
-    </ul>
+    </ul></div>
 </body>
