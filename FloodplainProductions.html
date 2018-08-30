@@ -5,7 +5,7 @@
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
 <title>Floodplain Productions</title>
-<link rel='stylesheet' type='text/css' href='main.css'>
+<link rel='stylesheet' type='text/css' href='main3.css'>
 <style>
 h1 {
     color: #00A5D1;
@@ -87,7 +87,10 @@ p.five {
     margin-left: auto;
     margin-right: auto;
     }
-a.none {text-decoration: none;}
+
+a.none {text-decoration: none;
+        border-bottom: none;}
+
 .animated {
             -webkit-animation-duration: 2s;
             animation-duration: 2s;
@@ -112,7 +115,61 @@ a.none {text-decoration: none;}
 ul.two
     {
     width: 100%;
+}
+div.pad {
+    padding-bottom: 24px;    
+    }    
+    
+.full-width-bar {
+  margin: 0 -9999rem;
+  /* add back negative margin value */
+  padding: 0.25rem 9999rem;
+  background: rgba(0, 0, 0, 0.5);
 }    
+ul.topnav {
+    list-style-type: none;
+    list-style:none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    font-weight: 700;
+    overflow: hidden;
+    opacity: 0.7;
+    /* background: rgba(0, 0, 0, 0.85); */
+    background-color: none;
+}
+ul.topnav li {display: inline;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #FF8B6F;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #00A5D1;}
+
+ul.topnav li a.active {background-color: #00A5D1;}
+
+ul.topnav li.left {float: left;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}        
 </style>
 </head>
 <body>
