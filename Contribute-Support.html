@@ -3,7 +3,7 @@
 <meta name="description" content="Feel free to contribute via the Paypal, Venmo, or Bitcoin widgets and links at the bottom of the page. Thank you so much for your support." />
 <link rel="shortcut icon" href="WaterDrop.ico" type="image/x-icon">
 <link href="https://fonts.googleapis.com/css?family=Buenard|EB+Garamond|Lora|Roboto" rel="stylesheet" type="text/css">
-<link rel='stylesheet' type='text/css' href='main.css'>
+<link rel='stylesheet' type='text/css' href='main3.css'>
 <style>
 x {
     position: absolute;
@@ -167,11 +167,86 @@ a.none {
 .block:hover:after {
     opacity: 0.5;
 } 
+    
+/* adding the menu bar */
+    
+div.pad {
+    padding-bottom: 24px;    
+    }   
+    
+a.none {
+        text-decoration: none;
+        border-bottom: none;}      
+    
+.fullwidth {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    }     
+
+ul.topnav {
+    list-style-type: none;
+    list-style:none;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    font-weight: 700;
+    overflow: hidden;
+    opacity: 0.7;
+    /* background: rgba(0, 0, 0, 0.85); */
+    background-color: none;
+}
+ul.topnav li {display: inline;}
+
+ul.topnav li a {
+    display: inline-block;
+    color: #FF8B6F;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #00A5D1;}
+
+ul.topnav li a.active {background-color: #00A5D1;}
+
+ul.topnav li.left {float: left;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}    
+    
 </style>
 </head>
 <body>
 
-<a class="btn" href="http://thefloodplains.com/"></a>
+<div class="pad">
+<ul class="topnav two">
+  <li><a href="http://www.thefloodplains.com/" class="none"><i>Home</i></a></li>
+  <li><a href="About" class="none">About</a></li>
+  <li><a href="Articles" class="none">Articles</a></li>
+  <li><a href="CodingCorner" class="none">Coding Corner</a></li>
+  <li><a href="Contact-Social" class="none">Contact/Social</a></li>
+  <li><a href="TheFloodSharkMain" class="none">The FloodShark</a></li>
+  <li><a href="FloodplainProductions" class="none">Floodplain Productions</a></li>
+  <li><a href="ClassicalCorner" class="none">Classical Corner</a></li>
+  <li><a href="Gallery" class="none">Gallery</a></li>
+  <li><a href="Contribute-Support" class="active none">Contribute</a></li></ul></div>
+
+<div class="fullwidth">     
    <ll><x><center><t><b>Contributions are Always Welcome!</b></t></center>
 <center><p>If you like what you read, watched, and/or heard, consider contributing via the links below. Thank you so much for your support.</p></center>
     <hr>
@@ -196,9 +271,9 @@ a.none {
     <img src="Venmo.png" style="width:100%;">
       <center><p2><a href="https://venmo.com/">Send to William-Hyatt-1</a></p2></center>
   </div>
-  <div class="columntwo block">
+  <div class="columntwo">
     <h><center>Bitcoin</center></h>
-    <img src="Bitcoin.png" style="width:100%">
+    <img src="Bitcoin.png" style="width:100%" class="block">
         <center><p2><a href="BTCAddress">Bitcoin Address</a></p2></center>  
   </div>
 </div>     
@@ -213,6 +288,8 @@ a.none {
     
     <p>1MbhzZ67qYgpzP7nMLKLJMmKPKfzxAyK6j</p> -->
        
-<!-- use the following website: https://stackoverflow.com/questions/33155170/three-centered-boxes-next-to-each-other-html -->    
+<!-- use the following website: https://stackoverflow.com/questions/33155170/three-centered-boxes-next-to-each-other-html -->   
+       
+       </div>
     
 </body>
