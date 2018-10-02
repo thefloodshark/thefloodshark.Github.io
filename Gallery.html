@@ -6,82 +6,67 @@
 <link href="https://fonts.googleapis.com/css?family=Cormorant" rel="stylesheet">
 <link rel='stylesheet' type='text/css' href='main3.css'>
 <style>
-html,body{
-  padding: 0;
-  margin:0;
-}
-h2 {
-    color: #FF8B6F;
-    -webkit-text-decoration-color: #ff8b6f;
-    text-decoration-color: #FF8B6F;
-    font-size: 40px;
-    padding-bottom: 3px;
-}
 h1 {
     font-size: 50px;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia;
     color: #00A5D1;
-    padding-bottom: -1px;
 }
-h {
-    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia;
-    font-size: 32px;
-    font-weight: bold;
+h2 {
+    color: #FF8B6F;
+    font-size: 40px;
+    padding-bottom: 3px;
     text-align: center;
-    }
-p  {
-    text-align: center;
-    padding-top: 2px;
-    }
-p2 {
+}
+h4 {
     font-size: 22px;
     margin-top: 1px;
     color: #00A5D1;
-    }
-div.containercenter {
-    margin: 0px auto;
-    align-content: center;
-    margin-left: 58px; 
-}    
-hr {
-    border: none;
-    height: 2px;
-    color: black;
-    background-color: #FFE097;
-    margin: 20px 0 20px 0;  
-    padding: 4px;
-}
-.pad {
-    margin-bottom: 2px;
-    padding-bottom: 2px;
-}    
-    
-/* Create four equal columns that floats next to each other */
-.row {
+    text-align: center;
+}  
+
+.row{
   display: grid;
-  grid-template-columns: repeat(4, 25%); //4 columns each row with a width of 25%
-  grid-gap: 8px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2%;
+  align-items: start;
 }
 
-.column img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-top: 12px;
-  margin-bottom: 6px;
+.column{
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 300px;
 }
+
+.column div{
+  display: grid;
+}
+
+.column img{
+  place-self: center;
+}
+
+.column div h4{
+  place-self: end center;
+}
+
+
+
+
+
+.column img {
+    height: 75%;
+}
+
+/* Clear floats after the columns */
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
-  .row {
-    grid-template-columns: auto auto; /* 2 columns per row while browser window is less than 800px */
-  }
-}
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media (max-width: 600px) {
-  .row {
-    grid-template-columns: auto; /*only 1 column per row while browser window is less than 800px */
+  .row{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    align-items: start;
   }
 }
     
@@ -233,106 +218,102 @@ ul.topnav li.left {float: left;}
 
 <!-- Photo Grid -->
 <div class="row">
-  <!-- <div class="containercenter"> -->
-  <div class="column">
-    <h2>
-      <center>Albums</center>
-      </h>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/Let-Loose-the-Floodgates.png" style="width:100%">
-      <center>
-        <p2>Let Loose the Floodgates</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/08/Split-Artwork.jpg" style="width:100%">
-      <center>
-        <p2>TYSFC / The FloodShark Split</p2>
-      </center>
-      <img src="AnotherWilliamBlake.jpg" style="width:100%">
-      <center>
-        <p2>Another William Blake</p2>
-      </center>
+	<div class="column">
+		<h2>Albums</h2>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/Let-Loose-the-Floodgates.png">
+			<h4>Let Loose the Floodgates</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/08/Split-Artwork.jpg">
+			<h4>TYSFC / The FloodShark Split</h4>
+		</div>
+		<div>
+			<img src="AnotherWilliamBlake.jpg">
+			<h4>Another William Blake</h4>
+		</div>
+	</div>
 
-  </div>
-  <div class="column">
-    <h2>
-      <center>EPs</center>
-      </h>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/Synthetic-Shark-Album-Art.png" style="width:100%">
-      <center>
-        <p2>Synthetic Shark</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/The-Black-Butterfly.png" style="width:100%">
-      <center>
-        <p2>The Black Butterfly</p2>
-      </center>
+	<div class="column">
+		<h2>EPs</h2>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/Synthetic-Shark-Album-Art.png">
+			<h4>Synthetic Shark</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/The-Black-Butterfly.png">
+			<h4>The Black Butterfly</h4>
+		</div>
+	</div>
 
-  </div>
-  <div class="column">
-      <center>Singles</center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/HungryShark2-Alteration-2.jpg" style="width:100%">
-      <center>
-        <p2>HungryShark</p2>
-      </center>
-      <img src="HungrySharkSpotify.jpg" style="width:100%">
-      <center>
-        <p2>HungryShark Alt</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/07/The-Man-on-the-Porch-TGrG-cover.jpg" style="width:100%">
-      <center>
-        <p2>The Man on the Porch</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2018/01/Sentimental-Shark-Art-Final-Art-Original.jpg" style="width:100%">
-      <center>
-        <p2>Sentimental Shark</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2018/01/Sentimental-Shark-Art-cropped.jpg" style="width:100%">
-      <center>
-        <p2>Sentimental Shark OG</p2>
-      </center>
-      <img src="Kai.png" style="width:100%">
-      <center>
-        <p2>Kai (rereleased)</p2>
-      </center>
-      <img src="ComeWavesArt1.png" style="width:100%">
-      <center>
-        <p2>Come Waves (rereleased)</p2>
-      </center>
-      <img src="LasLuces2.png" style="width:100%">
-      <center>
-        <p2>Las Luces</p2>
-      </center>
-      <img src="LasLuces3.png" style="width:100%">
-      <center>
-        <p2>Las Luces alt</p2>
-      </center>
+	<div class="column">
+		<h2>Singles</h2>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2016/05/HungryShark2-Alteration-2.jpg">
+			<h4>HungryShark</h4>
+		</div>
+		<div>
+			<img src="HungrySharkSpotify.jpg">
+			<h4>HungryShark Alt</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/07/The-Man-on-the-Porch-TGrG-cover.jpg">
+			<h4>The Man on the Porch</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2018/01/Sentimental-Shark-Art-Final-Art-Original.jpg">
+			<h4>Sentimental Shark</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2018/01/Sentimental-Shark-Art-cropped.jpg">
+			<h4>Sentimental Shark OG</h4>
+		</div>
+		<div>
+			<img src="Kai.png">
+			<h4>Kai (rereleased)</h4>
+		</div>
+		<div>
+			<img src="ComeWavesArt1.png">
+			<h4>Come Waves (rereleased)</h4>
+		</div>
+		<div>
+			<img src="LasLuces2.png">
+			<h4>Las Luces</h4>
+		</div>
+		<div>
+			<img src="LasLuces3.png">
+			<h4>Las Luces alt</h4>
+		</div>
+	</div>
 
-  </div>
-  <div class="column">
-      <center>Logos / Misc</center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Logo-1.jpeg">
-      <center>
-        <p2>Shark Cans Classic</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-2.jpg">
-      <center>
-        <p2>Shades of a Shark 1</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-2-Alt-1.jpg">
-      <center>
-        <p2>Shades of a Shark 2</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-alt-6-green-sharpened.jpg">
-      <center>
-        <p2>Shades of a Shark Green</p2>
-      </center>
-      <img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-alt-5-pink.jpg">
-      <center>
-        <p2>Shades of a Shark Pink</p2>
-      </center>
-      <img src="FloodSharkLogo2018.png">
-      <center>
-        <p2>Shark Cans 2018</p2>
-      </center>
-  </div>
+	<div class="column">
+		<h2>Logos / Misc</h2>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Logo-1.jpeg">
+			<h4>Shark Cans Classic</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-2.jpg">
+			<h4>Shades of a Shark 1</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-2-Alt-1.jpg">
+			<h4>Shades of a Shark 2</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-alt-6-green-sharpened.jpg">
+			<h4>Shades of a Shark Green</h4>
+		</div>
+		<div>
+			<img src="http://www.thegrassrootsgarage.com/wp-content/uploads/2017/12/Shark-Logo-alt-5-pink.jpg">
+			<h4>Shades of a Shark Pink</h4>
+		</div>
+		<div>
+			<img src="FloodSharkLogo2018.png">
+			<h4>Shark Cans 2018</h4>
+		</div>
+	</div>
+  
 </div>
 <!-- </div> -->      
     <hr>
