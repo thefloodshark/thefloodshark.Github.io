@@ -70,6 +70,48 @@ a.none {text-decoration: none;
     padding: 8px;
     /* padding-bottom: 0px; */
 }
+    
+.row {
+        width: 100%;
+        max-width: 640px;
+        margin: 0 auto;
+        display: inline-block;    
+    }  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}  
+    
+.block:after {
+    content: '';
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: block;
+    background: #FFE097;
+    opacity: 0;
+    border-radius: 5px;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.block:hover {
+  -webkit-transform: scale(1.05, 1.05);
+  transform: scale(1.05, 1.05);
+  z-index: 99999;
+}
+.block:hover:after {
+    opacity: 0.5;
+}    
+    
 ul.two
     {
     width: 100%;
@@ -192,12 +234,13 @@ ul.topnav li.left {float: left;}
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
     <br>
+
     
 <div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row"> 
   <div class="column">
     <h><center>Facebook</center></h>
-      <a href="https://venmo.com/"><img src="Venmo.png" style="width:100%" class="block"></a>
-      <center><p2><a href="https://venmo.com/">Send to William-Hyatt-1</a></p2></center>
+      <a href="https://www.facebook.com/thefloodshark"><img src="Venmo.png" style="width:100%" class="block"></a>
+      <center><p2><a href="https://www.facebook.com/thefloodshark">facebook.com/thefloodshark</a></p2></center>
   </div>
   <div class="columntwo">
     <h><center>Twitter</center></h>
@@ -211,14 +254,15 @@ ul.topnav li.left {float: left;}
   </div>    
 </div>
 
+    
 <div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row"> 
   <div class="column">
-    <h><center>YouTube</center></h>
+    <h><center>Spotify</center></h>
       <a href="https://venmo.com/"><img src="Venmo.png" style="width:100%" class="block"></a>
       <center><p2><a href="https://venmo.com/">Send to William-Hyatt-1</a></p2></center>
   </div>
   <div class="columntwo">
-    <h><center>Spotify</center></h>
+    <h><center>Bandcamp</center></h>
     <img src="Bitcoin.png" style="width:100%" class="block">
         <center><p2><a href="BTCAddress">Bitcoin Address</a></p2></center>  
   </div>
@@ -227,7 +271,27 @@ ul.topnav li.left {float: left;}
       <a href="https://venmo.com/"><img src="Venmo.png" style="width:100%" class="block"></a>
       <center><p2><a href="https://venmo.com/">Send to William-Hyatt-1</a></p2></center>
   </div>    
-</div>    
+</div> 
+    
+
+<div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row"> 
+  <div class="column">
+    <h><center>YouTube</center></h>
+      <a href="https://venmo.com/"><img src="Venmo.png" style="width:100%" class="block"></a>
+      <center><p2><a href="https://venmo.com/">Send to William-Hyatt-1</a></p2></center>
+  </div>
+  <div class="columntwo">
+    <h><center>Reddit</center></h>
+    <img src="Bitcoin.png" style="width:100%" class="block">
+        <center><p2><a href="BTCAddress">Bitcoin Address</a></p2></center>  
+  </div>
+  <div class="column">
+    <h><center>Google+</center></h>
+      <a href="https://venmo.com/"><img src="Venmo.png" style="width:100%" class="block"></a>
+      <center><p2><a href="https://venmo.com/">Send to William-Hyatt-1</a></p2></center>
+  </div>    
+</div> 
+    
     
 </div>    
 </body>
