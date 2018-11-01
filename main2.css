@@ -8,9 +8,9 @@
 -------------------------------------------------------------- */
 
 .col-md-4 {
-	color:#00A5D1;
+	color:#0081A5;
 	height:300px;
-    border: 1px solid #FF8B6F;
+    border: 1px solid #F97B62;
     position: relative;
 }
 
@@ -78,12 +78,12 @@
 /* Button */
 
 .btn {
-  background: #FF8B6F;
-  background-image: -webkit-linear-gradient(top, #FF8B6F, #00A5D1);
-  background-image: -moz-linear-gradient(top, #FF8B6F, #00A5D1);
-  background-image: -ms-linear-gradient(top, #FF8B6F, #00A5D1);
-  background-image: -o-linear-gradient(top, #FF8B6F, #00A5D1);
-  background-image: linear-gradient(to bottom, #FF8B6F, #00A5D1);
+  background: #F97B62;
+  background-image: -webkit-linear-gradient(top, #F97B62, #0081A5);
+  background-image: -moz-linear-gradient(top, #F97B62, #0081A5);
+  background-image: -ms-linear-gradient(top, #F97B62, #0081A5);
+  background-image: -o-linear-gradient(top, #F97B62, #0081A5);
+  background-image: linear-gradient(to bottom, #F97B62, #0081A5);
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
