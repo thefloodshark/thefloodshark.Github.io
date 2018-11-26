@@ -32,6 +32,7 @@ hr {
     background-color: #FFE097;
     margin-top: 8px;
 }
+
 ul.topnav {
     list-style-type: none;
     list-style:none;
@@ -40,11 +41,12 @@ ul.topnav {
     padding-bottom: 12px;
     padding-top: 12px;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
-    font-weight: 700;
+    /* font-weight: 700; */
     overflow: hidden;
-    opacity: 0.7;
-    /* background: rgba(0, 0, 0, 0.85); */
-    background-color: none;
+    /* opacity: 0.7;
+    background: rgba(0, 0, 0, 0.85); */
+    /* background-color: #224356; */
+    background-color: black;
 }
 ul.topnav li {display: inline;}
 
@@ -55,7 +57,7 @@ ul.topnav li a {
     margin: 0px 0px;
     padding: 15px 15px;
     text-decoration: none;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .topnav-centered a {
@@ -72,6 +74,12 @@ ul.topnav li a.active {background-color: #0081A5;}
 
 ul.topnav li.left {float: left;}
 
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}  
+
 div.pad {
     padding-bottom: 4px;    
     }    
@@ -81,31 +89,6 @@ ul.two
 }
 a.none {text-decoration: none;
         border-bottom: none;}    
-
-/* @media only screen and (max-width: 600px){
-    .fullwidth {
-    max-width: 90%;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    list-style:none;
-    text-align:center;
-    align-items: center;
-    }
-}     */    
-
-/* @media only screen and (max-width: 600px){
-    h1 {
-    max-width: 90%;
-    width: 90%;
-    }
-} */
- 
-/* @media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-    ul.topnav li.left {float: none;}
-}    */
     
 .fullwidth {
     max-width: 960px;
