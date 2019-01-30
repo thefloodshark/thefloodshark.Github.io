@@ -37,6 +37,13 @@
     transform: translateY(-50%);
 }
 
+.col-md-4 h1 {
+    position: relative;
+    z-index: 1;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
 /* The Hover Effects */
 
 .col-md-4 {
