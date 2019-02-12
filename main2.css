@@ -18,7 +18,6 @@
 
 .col-md-5 h3 {
     position: relative;
-    top: 40%;
     transform: translateY(-50%);
 }
 
