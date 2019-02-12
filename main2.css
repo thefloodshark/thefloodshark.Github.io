@@ -7,6 +7,21 @@
 /* Original
 -------------------------------------------------------------- */
 
+.col-md-5 {
+	color:#0081A5;
+	height:50%;   
+}
+
+.col-md-5:hover {
+    background-color: #FFE097;
+}
+
+.col-md-5 h3 {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+
 .col-md-4 {
 	color:#0081A5;
 	height:300px;
