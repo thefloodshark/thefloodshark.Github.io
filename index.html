@@ -4,7 +4,6 @@
         <title>The Floodplains - Eclectic Media Site and Home to the Sonic Waves of The FloodShark</title>
         <meta name="description" content="The Floodplains - an eclectic media site featuring original content in the form of written articles and music by the enigmatic producer/composer, The FloodShark." />
         <link rel="shortcut icon" href="WaterDrop.ico" type="image/x-icon">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="main2.css">
 		<!-- Latest compiled and minified CSS -->
@@ -132,7 +131,21 @@
         display:none !important;
     }
 }    
+@media only screen and (max-width: 479px) {
+   .mobile-hide{ display: block !important; }
+}
+
+@media only screen and (max-width: 479px) {
+   .mobile-hide{ display: none !important; }
+} 
         
+@media only screen and (min-width: 480px) {
+   .desktop-hide{ display: block !important; }
+}
+
+@media only screen and (min-width: 480px) {
+   .desktop-hide{ display: none !important; }
+}          
     </style>    
 	</head>
 	<body>
@@ -174,13 +187,13 @@
 				</div></a>
 			</div>	
 		</div>
-        <div class="mobile-only container">
-			<div class="mobile-only row">
+        <div class="mobile-only desktop-hide container">
+			<div class="mobile-only desktop-hide row">
 				<a href="thefloodshark.html" title="About the site and Author"><div class="col-md-4" id='div1'>
 					<h3>The FloodShark Music</h3>
                     </div></a>
 			</div>
-			<div class="mobile-only row">	
+			<div class="mobile-only desktop-hide row">	
 				<a href="FloodplainProductions.html" title="A nook dedicated to sharing and categorizing classical music"><div class="col-md-5" id="div7">
 					<h3>The Floodplains</h3>
 				</div></a>
