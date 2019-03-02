@@ -45,6 +45,7 @@ u:hover {
   max-width: 960px;
   width: 100%;
   padding-top: 15px;
+  display: inline-block;
 }
 .block {
   flex: 0 0 33.1%;
@@ -285,6 +286,18 @@ ul.topnav li.left {float: left;}
     ul.topnav li.left {float: none;}
 } */
   
+@media only screen and (max-width: 600px) {
+    ul.topnav li a {
+        display: inline-block;
+        color: #F97B62;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 9px 9px;
+        text-decoration: none;
+        /* font-weight: 700; */
+}
+}     
+    
 @media only screen and (max-width: 600px) {
     .bgimg {
     background-image: url('cheekysharktransparent3.jpg');
