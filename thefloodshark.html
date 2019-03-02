@@ -98,7 +98,7 @@ u:hover {
     opacity: 0.5;
 }
     
-x {
+/* x {
     margin: auto;
     text-align: center;  
     font-size: 85px;
@@ -108,7 +108,8 @@ x {
     text-decoration-color:#0081A5;
     color:#0081A5;
     border-bottom: 2px solid #FFE097;
-}
+} */
+    
 hr {
     border: none;
     height: 2px;
@@ -261,31 +262,33 @@ ul.topnav li a.active {background-color: #0081A5;}
 
 ul.topnav li.left {float: left;}
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-    ul.topnav li.left {float: none;}
-}      
-
 .bgimg {
     background-image: url('cheekysharktransparent3.jpg');
     margin: 9px;
     margin-bottom: 30px;
     padding: 15px;
     box-shadow: 0 0 10px 10px white inset;
-}    
+}       
+    
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+}
   
 @media only screen and (max-width: 600px) {
     .bgimg {
-    background-image: url('cheekysharktransparent3.jpg') no-repeat center center fixed;
+    background-image: url('cheekysharktransparent3.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* background-size: 100% auto; */    
     margin: 9px;
     padding: 15px;
     box-shadow: 0 0 10px 10px white inset;
-    height:auto; 
+    background-repeat: no-repeat;
+    /* height:auto; */
  }
 }    
     
@@ -297,11 +300,10 @@ ul.topnav li.left {float: left;}
     box-shadow: 0px 0px 15px 15px rgba(0,0,0, 0);
 }
 
-.box {
+/* .box {
     background-image: url('cheekysharktransparent3.jpg');
-    /* you need to match the shadow color to your background or image border for the desired effect*/
     box-shadow: 0 0 10px 10px white inset;
-}    
+}    */
     
 </style>
 </head>
@@ -331,7 +333,7 @@ ul.topnav li.left {float: left;}
 
 <p>A Florida-based producer/composer turned digital, cartilaginous thresher surfing the sonic waves with an eclectic musical style. After spending its first 8 years in Riyadh, Saudi Arabia, followed by the next 10 in coastal Virginia, the Shark's taken residency along the continental shelf of the Sunshine State.</p>
     
-<p>The Shark's music lies on the more experimental side of electronic, featuring a modern fusion of ambient, plunderphonics, hip-hop, and Western classical. Musical themes include lost love, political and social resistance, the realities of environmental degradation, and the omnipotence of nature, among others. Prominent collaborators include Super Smash Bros. legend - and talented vocalist - Hungrybox, as well as professional voice actor Nazeeh Tarsha (One Piece, Dragon Ball Super).</p></div> 
+<p>The Shark's music lies on the more experimental side of electronic, featuring a modern fusion of ambient, plunderphonics, hip-hop, and Western classical. Musical themes include lost and lasting love, political and social resistance, the realities of environmental degradation, and the omnipotence of nature, among others. Prominent collaborators include Super Smash Bros. legend - and talented vocalist - Hungrybox, as well as professional voice actor Nazeeh Tarsha (One Piece, Dragon Ball Super).</p></div> 
     
 <center><div class="container flex-container">
 
