@@ -216,7 +216,7 @@ a.none {
 /* adding the menu bar */
     
 div.pad {
-    padding-bottom: 24px;    
+    padding-bottom: 15px;    
     }   
     
 a.none {
@@ -296,7 +296,7 @@ ul.topnav li.left {float: left;}
 @media only screen and (max-width: 600px) {
 ul.topnav {
     list-style-type: none;
-    list-style:none;
+    list-style: none;
     align-content:center;
     margin: 0;
     padding-bottom: 12px;
@@ -310,7 +310,18 @@ ul.topnav {
     background-color: black;
 }
 }  
-     
+
+@media only screen and (max-width: 600px) {
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  width: 100%;
+  padding-top: 15px;
+  align-content: center;
+  /* display: inline-block; */
+}
+}      
     
 @media only screen and (max-width: 600px) {
     ul.topnav li a {
@@ -371,7 +382,7 @@ ul.topnav {
 .block {
   flex: 0 0 33.1%;
   height: 275px;
-  min-width: 185px;
+  min-width: 180px;
   background-position: center center; /* center the image in the div */
   background-size: cover; /* cover the entire div */
   background-repeat: no-repeat;
