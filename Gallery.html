@@ -65,17 +65,6 @@ h4 {
     height: 75%;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media (max-width: 800px) {
-  .row{
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 2%;
-    align-items: start;
-  }
-}
-    
-/* adding the menu bar */
-
 div.pad {
     padding-bottom: 24px;    
     }   
@@ -175,15 +164,18 @@ h2 {
     font-size: 18px;
     padding-bottom: 3px;
     text-align: center;
+    margin: none;
 }
 }      
     
 @media only screen and (max-width: 600px) {
 h4 {
     font-size: 15px;
-    margin-top: 1px;
+    margin-top: -10px;
     color: #0081A5;
     text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 } 
     
@@ -196,6 +188,30 @@ h1 {
 }
 }     
 
+@media only screen and (max-width: 600px) {
+h1 {
+    font-size: 36px;
+    font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond', Georgia;
+    color: #0081A5;
+    margin: 12px 0 0;
+}
+}
+    
+@media only screen and (max-width: 600px) {
+.column div h4 {
+    place-self: auto;
+}
+} 
+    
+@media (max-width: 800px) {
+  .row{
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    align-items: start;
+    display: block;  
+  }
+}    
+    
 </style>
 </head>
 <body>
