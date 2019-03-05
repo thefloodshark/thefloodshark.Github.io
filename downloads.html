@@ -50,11 +50,13 @@ h1 {
     padding-bottom: 0px;
     padding-top: 4px;
     }
+    
 hz {
     font-size: 73px;
     font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond';
     text-decoration-color: #0081A5;
     }
+    
 div.img {
     padding: 1px;
     border: 2px solid black;
@@ -63,6 +65,7 @@ div.img {
     width: 317px;
     height: 317px;
 }
+    
 hr.side {
     border: none;
     height: 2px;
@@ -71,25 +74,30 @@ hr.side {
     margin: 20px 0 20px 0;  
     padding: 4px;
 }
+    
 img.hasBorder { 
  /* border:2px solid black; */
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
+    
 img.logo { 
     max-height: 39px;
     width: auto;
     /* position: absolute; */
     vertical-align:bottom;
     margin: -4px;
-}    
+}  
+    
 hr.margintop {
     margin-top: 33px;    
     }
+    
 ul.two
     {
     width: 100%;
 }
+    
 li.down {
     /* margin-bottom: -12px; */
     /* padding-bottom: -12px; */
@@ -97,6 +105,7 @@ li.down {
     /* max-height: 51px; */
     /* width: auto; */
     }
+    
 a.none {text-decoration: none;
         border-bottom: none;}
 .fullwidth {
@@ -314,6 +323,21 @@ hz {
     font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond';
     text-decoration-color: #0081A5;
     }
+} 
+    
+@media only screen and (max-width: 600px) {
+.row {
+        max-width: 360px;
+        margin: 0 auto;
+        display: inline-block;    
+    }
+}  
+    
+@media only screen and (max-width: 600px) {
+.block {
+   max-height: 125px;
+   width: auto;    
+}
 }       
     
 </style>
