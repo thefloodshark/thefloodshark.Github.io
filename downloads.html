@@ -101,14 +101,6 @@ ul.two
     width: 100%;
 }
     
-li.down {
-    /* margin-bottom: -12px; */
-    /* padding-bottom: -12px; */
-    /* vertical-align:bottom; */
-    /* max-height: 51px; */
-    /* width: auto; */
-    }
-    
 a.none {text-decoration: none;
         border-bottom: none;}
 .fullwidth {
@@ -292,6 +284,7 @@ ul.topnav {
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 21px;
+        padding-top: 0px;
         /* margin: inherit; */
         /* font-weight: 700; */
 }
@@ -392,13 +385,19 @@ img.logo {
 }      
 }     
     
+@media only screen and (max-width: 600px) {    
+li { 
+    float: left;
+}      
+}       
+    
 </style>
 </head>
 <body>
     
 <div class="pad">
 <ul class="topnav two">
-  <li class="down"><a href="http://www.thefloodplains.com/" class="none"><img class="logo" src="sharkiconthree.png"></a></li>
+  <li><a href="http://www.thefloodplains.com/" class="none"><img class="logo" src="sharkiconthree.png"></a></li>
   <li><a href="thefloodshark" class="none"><i>FloodShark</i></a></li>
   <li><a href="Downloads" class="active none">Downloads</a></li>
   <li><a href="EPK" class="none">EPK</a></li>    
