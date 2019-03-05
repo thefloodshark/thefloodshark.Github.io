@@ -55,6 +55,9 @@ hz {
     font-size: 73px;
     font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond';
     text-decoration-color: #0081A5;
+    padding: 24px;
+    padding-bottom: 32px;
+    padding-top: 4px;
     }
     
 div.img {
@@ -227,6 +230,10 @@ div.pad {
         margin: 0 auto;
         display: inline-block;    
     }  
+.flow
+    {
+    align-items:center;      
+    }
 /* Clear floats after the columns */
 .row:after {
     content: "";
@@ -322,6 +329,9 @@ hz {
     font-size: 18px;
     font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond';
     text-decoration-color: #0081A5;
+    padding: 15px;
+    padding-bottom: 0px;
+    padding-top: 0px;
     }
 } 
     
@@ -357,9 +367,15 @@ hz {
     margin-top: 16px;
     margin-bottom: 12px;
     width: 100%;
-    padding-left: 24px;
 }
 }   
+   
+@media only screen and (max-width: 600px) {    
+.flow
+    {
+    align-items:center;      
+    }    
+} 
     
 </style>
 </head>
@@ -490,12 +506,12 @@ hz {
 <br>
     
 <center>
-    <hz style="border:4px; border-style:solid; border-color:#0081A5; padding: 24px; padding-bottom: 32px; padding-top: 4px;"><a style="text-decoration: none;" href="https://mega.nz/#F!dixGHSwL!9IctpIgAl91gTin0H00Fww" target="_blank"><span style="text-shadow: 1px 1px 2px rgba(149, 150, 150, 1);"><span style="color:#0081A5"><b>Download Discography</b></span></span></a></font></hz></center>
+    <hz style="border:4px; border-style:solid; border-color:#0081A5;"><a style="text-decoration: none;" href="https://mega.nz/#F!dixGHSwL!9IctpIgAl91gTin0H00Fww" target="_blank"><span style="text-shadow: 1px 1px 2px rgba(149, 150, 150, 1);"><span style="color:#0081A5"><b>Download Discography</b></span></span></a></font></hz></center>
     <br>
     <!-- <hr class="side"> -->
     <br>
     
-<div style="display:flex;justify-content:center;align-items:center;width:750px;" class="row"> 
+<div style="display:flex;justify-content:center;width:750px;" class="row flow"> 
   <div class="column">
     <h><center>Venmo</center></h>
       <a href="https://venmo.com/"><img src="Venmo.png" class="block"></a>
