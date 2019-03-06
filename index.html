@@ -139,7 +139,20 @@
     position: relative;
 }
         
-        
+@media only screen and (max-width: 600px) {
+body { 
+    background-image: url(OceanWater.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height:100%;
+    width:100%; 
+        }       
+}        
         
 @media (min-width: 600px) {
     .desktop-only {
@@ -185,8 +198,7 @@
     height: 320px;
 }
 }               
-                
-        
+      
     </style>    
 	</head>
 	<body>
