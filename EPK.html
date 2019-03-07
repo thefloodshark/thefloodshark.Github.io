@@ -179,7 +179,6 @@ a.none {text-decoration: none;
 li.changed
     {
         padding-top: 27px;
-        font-weight: 1000;
     } 
 ul.topnav {
     list-style-type: none;
@@ -318,9 +317,10 @@ ul.topnav {
     
 @media only screen and (max-width: 600px) {
    li.indent {
-    margin-bottom: 12px;
-    padding-bottom: 12px;
-    font-size: 12px;   
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 12px;  
+    margin-left: 0em;
     }
 }   
     
@@ -331,7 +331,13 @@ ul.topnav {
     text-align: auto;
     font-size: 10px;
     }
-}        
+}    
+    
+@media only screen and (max-width: 600px) {
+   li.changed {
+    padding-top: 0px;
+    }
+}    
     
 
 @media only screen and (max-width: 600px) {
