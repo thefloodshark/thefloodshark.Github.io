@@ -184,30 +184,30 @@ ul.topnav {
     list-style:none;
     text-align:center;
     margin: 0;
-    padding-bottom: 12px;
-    font-family: 'Montserrat','Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    /* padding-bottom: 12px; */
+    padding-top: 12px;
+    font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
     /* font-weight: 700; */
     overflow: hidden;
     /* opacity: 0.7;
     background: rgba(0, 0, 0, 0.85); */
+    /* background-color: #224356; */
     background-color: black;
-    padding: 9px 0 9px 0;
+    /* max-height: 65px; */
 }
 ul.topnav li {display: inline;}
 
 ul.topnav li a {
     display: inline-block;
-    color: #FFE097;
+    color: #F97B62;
     text-align: center;
+    align-content: center;
     margin: 0px 0px;
-    padding: 15px 15px;
+    padding: 10px 15px;
     text-decoration: none;
+    
     /* font-weight: 700; */
 }
-    
-a {
-        color: #FFE097;
-    }    
 
 .topnav-centered a {
   float: none;
@@ -222,6 +222,16 @@ ul.topnav li a:hover:not(.active) {background-color: #0081A5;}
 ul.topnav li a.active {background-color: #0081A5;}
 
 ul.topnav li.left {float: left;}
+
+/* @media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+    ul.topnav li.left {float: none;}
+} */
+    
+div.pad {
+        padding-bottom: 4px;
+    }
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
