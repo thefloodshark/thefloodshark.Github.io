@@ -103,7 +103,7 @@ a1.specialeffects {
 } */
 hr {
     border: none;
-    height: 2px;
+    height: 1px;
     color: black;
     background-color: #FFE097;
     margin: 4px 0 24px 0;  
@@ -266,7 +266,7 @@ ul.topnav {
     list-style: none;
     align-content:center;
     text-align: auto;
-    margin: 0;
+    /* margin: 0; */
     text-align:center; 
     position: relative; 
     display: inline-block;
@@ -293,6 +293,11 @@ ul.topnav {
         /* font-weight: 700; */
 }
 }
+
+@media only screen and (max-width: 600px)
+img.logo {
+    max-height: 18px;
+    margin: -4px;
     
 @media screen and (max-width: 600px) {    
 h {
@@ -335,11 +340,11 @@ a {
     
 @media screen and (max-width: 600px) {    
 ul {
-    width: 80%;
+    /* width: 80%; */
     margin: auto;
     padding-top: 14px;
     padding-bottom: 6px;
-    padding-left: 0px;
+    /* padding-left: 0px; */
 }
 }       
     
@@ -463,5 +468,5 @@ ul {
 
     <br>   
     
-</div>    
+</div>
 </body>
