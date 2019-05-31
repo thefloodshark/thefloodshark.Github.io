@@ -242,11 +242,11 @@ img.logo {
     margin-bottom: -16px;
 }
 
-@media screen and (max-width: 600px){
+/* @media screen and (max-width: 600px){
     ul.topnav li.right, 
     ul.topnav li {float: none;}
     ul.topnav li.left {float: none;}
-}
+} */
     
 @media screen and (max-width: 600px) {
     .seem {
@@ -260,16 +260,38 @@ img.logo {
     }
 }    
     
-@media screen and (max-width: 600px) {    
-ul.topnav li a {
+@media only screen and (max-width: 600px) {
+ul.topnav {
+    list-style-type: none;
+    list-style: none;
+    align-content:center;
+    text-align: auto;
+    margin: 0;
+    text-align:center; 
+    position: relative; 
     display: inline-block;
-    color: #FFE097;
-    text-align: center;
-    margin: 0px 0px;
-    padding: 8px 8px;
-    text-decoration: none;
-    /* font-weight: 700; */
-    }    
+    padding-bottom: 12px;
+    padding-top: 11px;
+    font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    overflow: hidden;
+    /* opacity: 0.7;
+    background: rgba(0, 0, 0, 0.85); */
+    /* background-color: #224356; */
+    background-color: black;
+}
+}   
+    
+@media only screen and (max-width: 600px) {
+    ul.topnav li a {
+        display: inline;
+        font-size: 11px;
+        color: #F97B62;
+        text-align: center;
+        margin: 0px 0px;
+        padding: 2px 5px;
+        text-decoration: none;
+        /* font-weight: 700; */
+}
 }
     
 @media screen and (max-width: 600px) {    
