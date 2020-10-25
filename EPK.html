@@ -279,20 +279,12 @@ a:hover {
   border-bottom: solid #F97B62 1px;
 }
 
-ul{
-    list-style-type: disc;
+ul.col {
+    list-style-type: none;
+    columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
-    columns: 2;
-    list-style-position: inside;//this is important addition
 }
-
-ul li{
-    float: left;
-    width: 50%;//helps to determine number of columns, for instance 33.3% displays 3 columns
-}
-
-/* Media Queries */
 
 @media only screen and (max-width: 600px) {
 body { 
@@ -523,7 +515,7 @@ iframe, embed {
 
       <h2>Social Media & Other Links</h2>
       <hr>
-      <ul class="three"><li class="indent"><a href="https://www.facebook.com/thefloodshark/">Facebook</a></li>
+      <ul class="three col"><li class="indent"><a href="https://www.facebook.com/thefloodshark/">Facebook</a></li>
       <li class="indent"><a href="https://twitter.com/theFloodShark">Twitter</a></li>
       <li class="indent"><a href="https://www.instagram.com/thefloodshark/">Instagram</a></li>
       <li class="indent"><a href="https://soundcloud.com/thefloodshark/">Soundcloud</a></li>
