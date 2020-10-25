@@ -279,6 +279,19 @@ a:hover {
   border-bottom: solid #F97B62 1px;
 }
 
+.multi-column {
+   -moz-column-count: 2;
+   -moz-column-gap: 20px;
+   -moz-column-fill: auto;
+   -webkit-column-count: 2;
+   -webkit-column-gap: 20px;
+   -webkit-column-fill: auto;
+   column-count: 2;
+   column-gap: 20px;
+   column-fill: auto;
+   list-style-position: inside;
+}
+
 /* Media Queries */
 
 @media only screen and (max-width: 600px) {
@@ -479,7 +492,7 @@ iframe, embed {
 
       <p>The following EPK download contains album art, gifs, music videos, and the full Sick Shark LP in different file formats. The folders and files can be freely downloaded together or separately.</p>
 
-      <li class="changed"><a href="https://drive.google.com/drive/folders/1RoU5x4s0qcQmQ1OsGSa64cJnusk8VFii?usp=sharing">Google Drive Download</a></li></style>
+      <center><li><a href="https://drive.google.com/drive/folders/1RoU5x4s0qcQmQ1OsGSa64cJnusk8VFii?usp=sharing">Google Drive Download</a></li></center>
 
       <!-- <li class="changed"><a href="https://www.dropbox.com/sh/pgr8sud8i9s63gk/AADsd002BtQBSe5Gx3M2cvW4a?dl=0">Dropbox Download</a></li></style> -->
       
@@ -510,7 +523,7 @@ iframe, embed {
 
       <h2>Social Media & Other Links</h2>
       <hr>
-      <ul class="three"><li class="indent"><a href="https://www.facebook.com/thefloodshark/">Facebook</a></li>
+      <ul class="three multi-column"><li class="indent"><a href="https://www.facebook.com/thefloodshark/">Facebook</a></li>
       <li class="indent"><a href="https://twitter.com/theFloodShark">Twitter</a></li>
       <li class="indent"><a href="https://www.instagram.com/thefloodshark/">Instagram</a></li>
       <li class="indent"><a href="https://soundcloud.com/thefloodshark/">Soundcloud</a></li>
