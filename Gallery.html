@@ -240,6 +240,19 @@ h1 {
     max-width: 340px;
 }  
 }    
+
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  align-items: center;
+  }
+
+.grid img {
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+  max-width: 100%;
+}
    
 </style>
 </head>
@@ -261,128 +274,39 @@ h1 {
     
     <hr>
 
-<!-- Header
-<div class="header">
-  <center><h2>Shark Art</h2></center>
-</div> -->
 
-<!-- Photo Grid -->
-<div class="row">
-	<div class="column">
-		<h2>Albums</h2>
-		<div>
-			<img src="LetLoosetheFloodgates.jpg">
-			<h4>Let Loose the Floodgates</h4>
-		</div>
-		<div>
-			<img src="TYSFCAlbumSplit.jpg">
-			<h4>TYSFC / The FloodShark Split</h4>
-		</div>
-		<div>
-			<img src="AnotherWilliamBlake.jpg">
-			<h4>Another William Blake</h4>
-		</div>
-        <div>
-			<img src="ElTiburon.jpg">
-			<h4>The FloodShark / El Tiburón de la Inundación</h4>
-		</div>
-	</div>
+<main class="grid">
+  <img src="LetLoosetheFloodgates.jpg" alt="Sample photo">
+  <img src="TYSFCAlbumSplit.jpg" alt="Sample photo">
+  <img src="AnotherWilliamBlake.jpg" alt="Sample photo">
+  <img src="ElTiburon.jpg" alt="Sample photo">
+  <img src="album_art.jpg" alt="Sample photo">
+  <img src="SyntheticShark.jpg" alt="Sample photo">
+  <img src="BlackButterfly.jpg" alt="Sample photo">
+  <img src="Microdoses3000x3000.jpg" alt="Sample photo">
+  <img src="HungrySharkSpotify.jpg" alt="Sample photo">
+  <img src="TheManOnThePorch.jpg" alt="Sample photo">
+  <img src="SentimentalShark.jpg" alt="Sample photo">
+  <img src="Kai.jpg" alt="Sample photo">
+  <img src="ComeWaves.jpg" alt="Sample photo">
 
-	<div class="column">
-		<h2>EPs</h2>
-		<div>
-			<img src="SyntheticShark.jpg">
-			<h4>Synthetic Shark</h4>
-		</div>
-		<div>
-			<img src="BlackButterfly.jpg">
-			<h4>The Black Butterfly</h4>
-		</div>
-        <div>
-			<img src="Microdoses3000x3000.jpg">
-			<h4>Microdoses</h4>
-		</div>
-	</div>
 
-	<div class="column">
-		<h2>Singles</h2>
-		<div>
-			<img src="HungrySharkSpotify.jpg">
-			<h4>HungryShark Alt</h4>
-		</div>
-		<div>
-			<img src="TheManOnThePorch.jpg">
-			<h4>The Man on the Porch</h4>
-		</div>
-		<div>
-			<img src="SentimentalShark.jpg">
-			<h4>Sentimental Shark</h4>
-		</div>
-		<div>
-			<img src="Kai.jpg">
-			<h4>Kai (rereleased)</h4>
-		</div>
-		<div>
-			<img src="ComeWaves.jpg">
-			<h4>Come Waves (rereleased)</h4>
-		</div>
-		<div>
-			<img src="LasLuces.jpg">
-			<h4>Las Luces</h4>
-		</div>
-		<div>
-			<img src="LasLuces2.jpg">
-			<h4>Las Luces alt</h4>
-		</div>
-        <div>
-			<img src="Parati.jpg">
-			<h4>Para Ti, Mi Luz</h4>
-		</div>
-        <div>
-			<img src="Aquabots.jpg">
-			<h4>Aquabots + Stardrops</h4>
-		</div>
-        <div>
-			<img src="ColombiaContigoFinalFinal2.jpg">
-			<h4>Colombia Contigo</h4>
-		</div>
-	</div>
-	<div class="column">
-		<h2>Logos / Misc</h2>
-		<div>
-			<img src="SharkCansWilliamLuo.jpg">
-			<h4>Shark Cans Classic</h4>
-		</div>
-		<div>
-			<img src="ShadesofaShark.jpg">
-			<h4>Shades of a Shark 1</h4>
-		</div>
-		<div>
-			<img src="ShadesofaSharkgreen.jpg">
-			<h4>Shades of a Shark Green</h4>
-		</div>
-		<div>
-			<img src="ShadesofaSharkpink.jpg">
-			<h4>Shades of a Shark Pink</h4>
-		</div>
-		<div>
-			<img src="EddieBender2018Logo.jpg">
-			<h4>Shark Cans 2018</h4>
-		</div>
-        		<div>
-			<img src="EddieLogo.png">
-			<h4>CheekyShark</h4>
-		</div>
-        <div>
-			<img src="FloodSharkWhiteOutline.png">
-			<h4>FloodShark Fin White</h4>
-		</div>
-        <div>
-			<img src="FloodSharkBlackMultiColoredLogo.png">
-			<h4>FloodShark Fin Black</h4>
-		</div>
-	</div>
-</div>
-<!-- </div> -->
+  <img src="LasLuces.jpg" alt="Sample photo">
+  <img src="LasLuces2.jpg" alt="Sample photo">
+  <img src="Parati.jpg" alt="Sample photo">
+  <img src="Aquabots.jpg" alt="Sample photo">
+  <img src="ColombiaContigoFinalFinal2.jpg" alt="Sample photo">
+  <img src="SharkCansWilliamLuo.jpg" alt="Sample photo">
+  <img src="ShadesofaShark.jpg" alt="Sample photo">
+
+  <img src="ShadesofaSharkgreen.jpg" alt="Sample photo">
+  <img src="ShadesofaSharkpink.jpg" alt="Sample photo">
+  <img src="EddieBender2018Logo.jpg" alt="Sample photo">
+  <img src="EddieLogo.png" alt="Sample photo">
+  <img src="FloodSharkWhiteOutline.png" alt="Sample photo">
+
+  <img src="FloodSharkBlackMultiColoredLogo.png" alt="Sample photo">
+
+</main>
     
 </body>
