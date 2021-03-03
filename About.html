@@ -162,7 +162,7 @@ div.pad {
   background: rgba(0, 0, 0, 0.5);
 }    
     
-ul.topnav {
+/* ul.topnav {
     list-style-type: none;
     list-style:none;
     text-align:center;
@@ -170,24 +170,45 @@ ul.topnav {
     padding-bottom: 12px;
     padding-top: 12px;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
-    /* font-weight: 700; */
     overflow: hidden;
-    /* opacity: 0.7;
-    background: rgba(0, 0, 0, 0.85); */
-    /* background-color: #224356; */
     background-color: black;
     padding: 9px 0 9px 0;
+} */
+
+ul.topnav {
+    list-style-type: none;
+    list-style: none;
+    text-align: center;
+    /* margin: 0; */
+    padding-bottom: 12px;
+    font-family: 'Montserrat','Buenard', Garamond, 'EB Garamond', Georgia, serif;
+    /* font-weight: 700; */
+    overflow: hidden;
+    background-color: black;
+    /* padding: 9px 0 9px 0; */
 }
+
 ul.topnav li {display: inline;}
 
-ul.topnav li a {
+/* ul.topnav li a {
     display: inline-block;
     color: #F97B62;
     text-align: center;
     margin: 0px 0px;
     padding: 15px 15px;
     text-decoration: none;
+} */
+
+@media screen and (max-width: 600px) {    
+ul.topnav li a {
+    display: inline-block;
+    color: #F97B62;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 8px 8px;
+    text-decoration: none;
     /* font-weight: 700; */
+    }    
 }
 
 .colorswitch {
