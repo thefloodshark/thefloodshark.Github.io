@@ -18,6 +18,7 @@
 <link rel='stylesheet' type='text/css' href='main3.css'>  
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <style>
+
 body {
     margin: 0;
     z-index: 1;
@@ -32,14 +33,17 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }    
+
 ul, li {
     font-family: 'Buenard', Garamond, arial, serif;
 }
+
 .fullwidth {
     max-width: 960px;
     margin-left: auto;
     margin-right: auto;
     }        
+
 h2 {
     color: #FFE097;
     text-decoration-color: #F97B62;
@@ -49,6 +53,7 @@ h2 {
     margin-right: auto;
     font-family: 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
     }
+
 hr {
     border: none;
     height: 2px;
@@ -56,6 +61,7 @@ hr {
     background-color: #FFE097;
     margin-top: 10px;
 }
+
 h1 {
     font-size: 65px;
     font-family: 'Gentium Basic', 'Buenard', Verdana, 'Slabo 27px', 'Vollkorn', serif;
@@ -63,6 +69,7 @@ h1 {
     margin-top: 52px;
 
 }
+
 .color {
     color: #F97B62;
     font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
@@ -72,6 +79,7 @@ h1 {
     margin-left: auto;
     margin-right: auto;}
     }
+
 .smaller {
 	font-size: 29px;
     font-weight: 300;
@@ -79,17 +87,22 @@ h1 {
     color: black;
     text-decoration-color: black;
 }
+
 #sub { list-style:none; }
+
 #sub li:before {
     content: "\2192 \0020";
     /* color: #FFE097; */
 }
+
 ul {
     /* width: 80%; */
     margin: auto;
 }
+
 a.none {text-decoration: none;
         border-bottom: none;}
+
 .small {
 	font-size: 27px;
     font-weight: 300;
@@ -97,14 +110,17 @@ a.none {text-decoration: none;
     color: #F4ECE1;
     text-decoration-color: black;
 }       
+
 df {
   color: #0081A5;
   border-bottom: dashed 1px; text-decoration: none;  
 }
+
 df:hover {
   border-bottom: solid 1px;
 }
-    a.none {text-decoration: none;}
+    
+a.none {text-decoration: none;}
 
 ul.topnav {
     list-style-type: none;
@@ -176,7 +192,7 @@ a:hover {
     border-bottom: solid #F97B62 1px;
     }    
     
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 ul.topnav {
     list-style-type: none;
     list-style: none;
@@ -184,14 +200,10 @@ ul.topnav {
     padding-bottom: 12px;
     padding-top: 11px;
     font-family: 'Montserrat', 'Buenard', Garamond, 'EB Garamond', Georgia, serif;
-    /* font-weight: 700; */
     overflow: hidden;
-    /* opacity: 0.7;
-    background: rgba(0, 0, 0, 0.85); */
-    /* background-color: #224356; */
     background-color: black;
 }
-} 
+} */
  
 @media only screen and (max-width: 600px) {
 body { 
@@ -208,7 +220,7 @@ body {
         }       
 }
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
     ul.topnav li a {
         display: inline;
         font-size: 9px;
@@ -217,9 +229,8 @@ body {
         margin: 0px 0px;
         padding: 9px 3px;
         text-decoration: none;
-        /* font-weight: 700; */
 }
-} 
+} */
 
 @media only screen and (max-width: 600px) {
 li.two {
@@ -283,15 +294,34 @@ h2 {
     }
 }
     
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
 li {
     padding-top: 4px;
     font-family: 'Buenard', Garamond, arial, serif;
     color: #F4ECE1;
     font-size: 16px;
     }
-}   
-    
+}  */ 
+   
+
+@media only screen and (max-width: 600px) {
+    li {
+        font-size: 12px;
+}
+}
+
+@media screen and (max-width: 600px) {    
+ul.topnav li a {
+    display: inline-block;
+    color: #F97B62;
+    text-align: center;
+    margin: 0px 0px;
+    padding: 8px 8px;
+    text-decoration: none;
+    /* font-weight: 700; */
+    }    
+}
+
 @media only screen and (max-width: 600px) {
 ul {
     margin: auto;
